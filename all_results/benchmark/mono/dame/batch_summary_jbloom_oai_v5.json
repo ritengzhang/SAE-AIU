@@ -1,0 +1,619 @@
+{
+  "total_analyses": 32,
+  "completed": 32,
+  "skipped": 0,
+  "failed": 0,
+  "elapsed_seconds": 37110.063504,
+  "completed_details": [
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1037.232166,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.661875,
+        "correlation": 0.7226987066797609,
+        "pairwise": 0.7747916666666665,
+        "rank_distance": 0.2833333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.524375,
+        "correlation": 0.563213135094611,
+        "pairwise": 0.6889583333333332,
+        "rank_distance": 0.421875
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1031.406431,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.641875,
+        "correlation": 0.7134567147554496,
+        "pairwise": 0.7737499999999999,
+        "rank_distance": 0.2914583333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.500625,
+        "correlation": 0.5396530398304193,
+        "pairwise": 0.6777083333333334,
+        "rank_distance": 0.44499999999999995
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1027.569944,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.72,
+        "correlation": 0.7830500678213177,
+        "pairwise": 0.8333333333333333,
+        "rank_distance": 0.22354166666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.548125,
+        "correlation": 0.593453924651018,
+        "pairwise": 0.7210416666666667,
+        "rank_distance": 0.39770833333333333
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1033.082866,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.663125,
+        "correlation": 0.7121738654534135,
+        "pairwise": 0.7806249999999999,
+        "rank_distance": 0.28395833333333337
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5287499999999999,
+        "correlation": 0.5488665834246708,
+        "pairwise": 0.6977083333333333,
+        "rank_distance": 0.42437500000000006
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-post-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1280.108484,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7025,
+        "correlation": 0.7740877265949706,
+        "pairwise": 0.8216666666666667,
+        "rank_distance": 0.23479166666666665
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5886184210526316,
+        "correlation": 0.6621664926377815,
+        "pairwise": 0.7555372807017543,
+        "rank_distance": 0.345328947368421
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-post-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1294.194953,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7256250000000001,
+        "correlation": 0.7634911749250304,
+        "pairwise": 0.8264583333333334,
+        "rank_distance": 0.2302083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5763815789473684,
+        "correlation": 0.6050284422429499,
+        "pairwise": 0.7307675438596491,
+        "rank_distance": 0.37766447368421047
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-post-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1286.849706,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.718125,
+        "correlation": 0.7675536749250303,
+        "pairwise": 0.8262499999999999,
+        "rank_distance": 0.23249999999999998
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.573125,
+        "correlation": 0.6059703493020361,
+        "pairwise": 0.7277083333333333,
+        "rank_distance": 0.37937499999999996
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-post-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1287.840384,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.66875,
+        "correlation": 0.7056786749250303,
+        "pairwise": 0.7768749999999999,
+        "rank_distance": 0.28708333333333325
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.540625,
+        "correlation": 0.5577003175473055,
+        "pairwise": 0.6970833333333333,
+        "rank_distance": 0.41937499999999994
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1022.11741,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6900000000000001,
+        "correlation": 0.7323697820287428,
+        "pairwise": 0.8027083333333331,
+        "rank_distance": 0.26375
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5625657894736842,
+        "correlation": 0.585566651494157,
+        "pairwise": 0.722094298245614,
+        "rank_distance": 0.3925877192982456
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1023.551695,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7068749999999999,
+        "correlation": 0.7381458256229942,
+        "pairwise": 0.8047916666666666,
+        "rank_distance": 0.2552083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.563125,
+        "correlation": 0.6077003175473055,
+        "pairwise": 0.7235416666666665,
+        "rank_distance": 0.38249999999999995
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1029.071115,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6581250000000001,
+        "correlation": 0.7052600043118566,
+        "pairwise": 0.7806249999999999,
+        "rank_distance": 0.29
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5599999999999999,
+        "correlation": 0.5848878175473055,
+        "pairwise": 0.7183333333333333,
+        "rank_distance": 0.394375
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1034.902775,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6206250000000001,
+        "correlation": 0.6646514289628748,
+        "pairwise": 0.7420833333333332,
+        "rank_distance": 0.32687499999999997
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.520328947368421,
+        "correlation": 0.518456896494674,
+        "pairwise": 0.6700986842105263,
+        "rank_distance": 0.4466776315789473
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-mid-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1287.799153,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7550000000000001,
+        "correlation": 0.7877720279908985,
+        "pairwise": 0.8425,
+        "rank_distance": 0.20875
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5972697368421053,
+        "correlation": 0.6254096642125939,
+        "pairwise": 0.7450877192982455,
+        "rank_distance": 0.35746710526315784
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-mid-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1280.062857,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.72,
+        "correlation": 0.7468673772929344,
+        "pairwise": 0.8179166666666667,
+        "rank_distance": 0.2397916666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5756249999999999,
+        "correlation": 0.595992785792575,
+        "pairwise": 0.72125,
+        "rank_distance": 0.3847916666666667
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-mid-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1286.956516,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.690625,
+        "correlation": 0.763936683000719,
+        "pairwise": 0.8222916666666666,
+        "rank_distance": 0.24187499999999998
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5647368421052631,
+        "correlation": 0.6097833137796661,
+        "pairwise": 0.7387390350877192,
+        "rank_distance": 0.3783662280701754
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-mid-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1289.453552,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.65375,
+        "correlation": 0.7200865242270663,
+        "pairwise": 0.7870833333333332,
+        "rank_distance": 0.28479166666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.524375,
+        "correlation": 0.5548653810567666,
+        "pairwise": 0.695,
+        "rank_distance": 0.42541666666666667
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1022.714595,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6575,
+        "correlation": 0.7285957346706593,
+        "pairwise": 0.7870833333333334,
+        "rank_distance": 0.2727083333333334
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5125,
+        "correlation": 0.5545528810567666,
+        "pairwise": 0.6941666666666666,
+        "rank_distance": 0.43208333333333326
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1033.702359,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.608125,
+        "correlation": 0.6411854806328149,
+        "pairwise": 0.7352083333333332,
+        "rank_distance": 0.3395833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.488125,
+        "correlation": 0.4919691469341318,
+        "pairwise": 0.6541666666666666,
+        "rank_distance": 0.4716666666666667
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1035.250313,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6475,
+        "correlation": 0.7162303536138928,
+        "pairwise": 0.7820833333333332,
+        "rank_distance": 0.28791666666666665
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5287499999999999,
+        "correlation": 0.5291790834246708,
+        "pairwise": 0.6831249999999999,
+        "rank_distance": 0.4372916666666667
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1033.786373,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6174999999999999,
+        "correlation": 0.6713693735291024,
+        "pairwise": 0.7510416666666666,
+        "rank_distance": 0.3204166666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5010526315789473,
+        "correlation": 0.5135480943025529,
+        "pairwise": 0.6691776315789474,
+        "rank_distance": 0.45398026315789475
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-mlp-out-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1281.391501,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.673125,
+        "correlation": 0.7160136114155693,
+        "pairwise": 0.7902083333333334,
+        "rank_distance": 0.278125
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.57375,
+        "correlation": 0.5976165834246708,
+        "pairwise": 0.7264583333333332,
+        "rank_distance": 0.38125
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-mlp-out-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1289.857804,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.65125,
+        "correlation": 0.6852151313307788,
+        "pairwise": 0.776875,
+        "rank_distance": 0.3
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.52375,
+        "correlation": 0.5109927857925749,
+        "pairwise": 0.6789583333333332,
+        "rank_distance": 0.445625
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-mlp-out-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1291.456557,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7068749999999999,
+        "correlation": 0.7508461431702999,
+        "pairwise": 0.8135416666666666,
+        "rank_distance": 0.24541666666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.556875,
+        "correlation": 0.6090340516699403,
+        "pairwise": 0.7343749999999999,
+        "rank_distance": 0.38416666666666666
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-mlp-out-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1288.480731,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.62375,
+        "correlation": 0.6469226630855094,
+        "pairwise": 0.7449999999999999,
+        "rank_distance": 0.3310416666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.4856249999999999,
+        "correlation": 0.47188541281149715,
+        "pairwise": 0.65,
+        "rank_distance": 0.48166666666666663
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-attn-out-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1024.909535,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6956249999999999,
+        "correlation": 0.7311586431702997,
+        "pairwise": 0.793125,
+        "rank_distance": 0.26291666666666663
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5404641812865497,
+        "correlation": 0.5687960566870498,
+        "pairwise": 0.695109649122807,
+        "rank_distance": 0.4145285087719298
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-attn-out-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1032.742851,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.65625,
+        "correlation": 0.702982758349701,
+        "pairwise": 0.783125,
+        "rank_distance": 0.2902083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.546875,
+        "correlation": 0.5352616151794013,
+        "pairwise": 0.6935416666666667,
+        "rank_distance": 0.42499999999999993
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-attn-out-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1032.136416,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.673125,
+        "correlation": 0.7091999090476652,
+        "pairwise": 0.7870833333333334,
+        "rank_distance": 0.28270833333333334
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5375,
+        "correlation": 0.5476614564057486,
+        "pairwise": 0.6939583333333333,
+        "rank_distance": 0.4222916666666666
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-attn-out-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1040.830093,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6612500000000001,
+        "correlation": 0.7152600043118567,
+        "pairwise": 0.7843749999999998,
+        "rank_distance": 0.28375000000000006
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.565,
+        "correlation": 0.6024102540378444,
+        "pairwise": 0.725,
+        "rank_distance": 0.3854166666666667
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-attn-out-SAEs",
+      "layer": 0,
+      "status": "success",
+      "elapsed_seconds": 1290.222634,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7475,
+        "correlation": 0.789167059745629,
+        "pairwise": 0.838125,
+        "rank_distance": 0.21333333333333332
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5884722222222222,
+        "correlation": 0.6297713651489555,
+        "pairwise": 0.7436574074074074,
+        "rank_distance": 0.3612268518518518
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-attn-out-SAEs",
+      "layer": 4,
+      "status": "success",
+      "elapsed_seconds": 1291.863003,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.686875,
+        "correlation": 0.7163036749250303,
+        "pairwise": 0.79125,
+        "rank_distance": 0.27270833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5549999999999999,
+        "correlation": 0.5833088928962875,
+        "pairwise": 0.71,
+        "rank_distance": 0.3977083333333333
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-attn-out-SAEs",
+      "layer": 8,
+      "status": "success",
+      "elapsed_seconds": 1291.304381,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.69375,
+        "correlation": 0.7369675360665873,
+        "pairwise": 0.8047916666666666,
+        "rank_distance": 0.2585416666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.571875,
+        "correlation": 0.5719302857925749,
+        "pairwise": 0.7089583333333334,
+        "rank_distance": 0.394375
+      }
+    },
+    {
+      "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-attn-out-SAEs",
+      "layer": 11,
+      "status": "success",
+      "elapsed_seconds": 1295.111064,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.615625,
+        "correlation": 0.6677600043118567,
+        "pairwise": 0.7547916666666665,
+        "rank_distance": 0.3277083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.51125,
+        "correlation": 0.5578064881604791,
+        "pairwise": 0.6918749999999999,
+        "rank_distance": 0.43104166666666666
+      }
+    }
+  ],
+  "failed_details": [],
+  "skipped_details": []
+}

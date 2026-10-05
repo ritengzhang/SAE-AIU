@@ -1,0 +1,33 @@
+{
+  "config": {
+    "architecture": "topk",
+    "width": "16k",
+    "layer": 19,
+    "trainer": "trainer_0",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.19.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 16384,
+    "sparsity_parameter": "k",
+    "sparsity_parameter_value": 20
+  },
+  "trainer_config": {
+    "trainer_class": "TrainerTopK",
+    "dict_class": "AutoEncoderTopK",
+    "lr": 0.0002,
+    "steps": 146484,
+    "seed": 0,
+    "activation_dim": 2304,
+    "dict_size": 16384,
+    "k": 20,
+    "device": "cuda:5",
+    "layer": 19,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "TopKTrainer-google/gemma-2-2b-resid_post_layer_19",
+    "submodule_name": "resid_post_layer_19"
+  },
+  "completeness_metrics": {
+    "mse": 8.02011489868164,
+    "n_samples": 7680
+  }
+}

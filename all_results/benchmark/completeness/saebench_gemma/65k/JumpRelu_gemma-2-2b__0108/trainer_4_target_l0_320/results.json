@@ -1,0 +1,37 @@
+{
+  "config": {
+    "repo_id": "canrager/saebench_gemma-2-2b_width-2pow16_date-0107",
+    "sae_type": "JumpRelu_gemma-2-2b__0108",
+    "layer": "resid_post_layer_12",
+    "trainer": "trainer_4",
+    "width": "65k",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.12.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 65536,
+    "sparsity_parameter": "target_l0",
+    "sparsity_parameter_value": 320
+  },
+  "trainer_config": {
+    "trainer_class": "JumpReluTrainer",
+    "dict_class": "JumpReluAutoEncoder",
+    "lr": 0.0003,
+    "steps": 244140,
+    "seed": 0,
+    "activation_dim": 2304,
+    "dict_size": 65536,
+    "device": "cuda:7",
+    "layer": 12,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "JumpReluTrainer-google/gemma-2-2b-resid_post_layer_12_trainer_4",
+    "submodule_name": "resid_post_layer_12",
+    "bandwidth": 0.001,
+    "sparsity_penalty": 1.0,
+    "sparsity_warmup_steps": 5000,
+    "target_l0": 320
+  },
+  "completeness_metrics": {
+    "mse": 5.257674217224121,
+    "n_samples": 7680
+  }
+}

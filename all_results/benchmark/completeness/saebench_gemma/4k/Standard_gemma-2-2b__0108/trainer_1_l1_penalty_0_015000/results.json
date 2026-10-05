@@ -1,0 +1,44 @@
+{
+  "config": {
+    "repo_id": "adamkarvonen/saebench_gemma-2-2b_width-2pow12_date-0108",
+    "sae_type": "Standard_gemma-2-2b__0108",
+    "layer": "resid_post_layer_12",
+    "trainer": "trainer_1",
+    "width": "4k",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.12.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 4096,
+    "sparsity_parameter": "l1_penalty",
+    "sparsity_parameter_value": 0.015
+  },
+  "trainer_config": {
+    "dict_class": "AutoEncoder",
+    "trainer_class": "StandardTrainerAprilUpdate",
+    "activation_dim": 2304,
+    "dict_size": 4096,
+    "lr": 0.0003,
+    "l1_penalty": 0.015,
+    "warmup_steps": 1000,
+    "sparsity_warmup_steps": 5000,
+    "steps": 244140,
+    "decay_start": 195312,
+    "seed": 0,
+    "device": "cuda:5",
+    "layer": 12,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "StandardTrainerNew-google/gemma-2-2b-resid_post_layer_12_trainer_1",
+    "submodule_name": "resid_post_layer_12"
+  },
+  "completeness_metrics": {
+    "mse": 2.0553138256073,
+    "n_samples": 7680,
+    "ce_loss_without_sae": null,
+    "ce_loss_with_sae": null,
+    "ce_loss_with_ablation": null,
+    "ce_loss_score": null,
+    "kl_div_with_sae": null,
+    "kl_div_with_ablation": null,
+    "kl_div_score": null
+  }
+}

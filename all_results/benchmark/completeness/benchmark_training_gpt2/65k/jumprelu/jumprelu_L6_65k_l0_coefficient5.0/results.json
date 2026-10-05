@@ -1,0 +1,27 @@
+{
+  "config": {
+    "llm": "gpt2",
+    "combo_id": "jumprelu_L6_65k_l0_coefficient5.0",
+    "architecture": "jumprelu",
+    "layer": 6,
+    "width": "65k",
+    "d_sae": 65536,
+    "sparsity_param": "l0_coefficient",
+    "sparsity_value": 5.0,
+    "model_name": "gpt2",
+    "hook_name": "blocks.6.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 768
+  },
+  "completeness_metrics": {
+    "mse": 0.146222044642155,
+    "ce_loss_without_sae": null,
+    "ce_loss_with_sae": null,
+    "ce_loss_with_ablation": null,
+    "ce_loss_score": null,
+    "kl_div_with_sae": null,
+    "kl_div_with_ablation": null,
+    "kl_div_score": null,
+    "n_samples": 122880
+  }
+}

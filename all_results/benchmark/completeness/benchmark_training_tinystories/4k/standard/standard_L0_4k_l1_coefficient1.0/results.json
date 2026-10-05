@@ -1,0 +1,20 @@
+{
+  "config": {
+    "llm": "tiny-stories",
+    "combo_id": "standard_L0_4k_l1_coefficient1.0",
+    "architecture": "standard",
+    "layer": 0,
+    "width": "4k",
+    "d_sae": 4096,
+    "sparsity_param": "l1_coefficient",
+    "sparsity_value": 1.0,
+    "model_name": "tiny-stories",
+    "hook_name": "blocks.0.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 1024
+  },
+  "completeness_metrics": {
+    "mse": 0.03165678422038372,
+    "n_samples": 122880
+  }
+}

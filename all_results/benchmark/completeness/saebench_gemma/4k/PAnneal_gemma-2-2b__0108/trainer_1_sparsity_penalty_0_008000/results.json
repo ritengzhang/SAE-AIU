@@ -1,0 +1,50 @@
+{
+  "config": {
+    "repo_id": "adamkarvonen/saebench_gemma-2-2b_width-2pow12_date-0108",
+    "sae_type": "PAnneal_gemma-2-2b__0108",
+    "layer": "resid_post_layer_12",
+    "trainer": "trainer_1",
+    "width": "4k",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.12.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 4096,
+    "sparsity_parameter": "sparsity_penalty",
+    "sparsity_parameter_value": 0.008
+  },
+  "trainer_config": {
+    "trainer_class": "PAnnealTrainer",
+    "dict_class": "AutoEncoder",
+    "activation_dim": 2304,
+    "dict_size": 4096,
+    "lr": 0.0003,
+    "sparsity_function": "Lp^p",
+    "sparsity_penalty": 0.008,
+    "p_start": 1.0,
+    "p_end": 0.2,
+    "anneal_start": 10000,
+    "sparsity_queue_length": 10,
+    "n_sparsity_updates": 10,
+    "warmup_steps": 1000,
+    "sparsity_warmup_steps": 5000,
+    "decay_start": 195312,
+    "resample_steps": null,
+    "steps": 244140,
+    "seed": 0,
+    "layer": 12,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "PAnnealTrainer-google/gemma-2-2b-resid_post_layer_12_trainer_1",
+    "submodule_name": "resid_post_layer_12"
+  },
+  "completeness_metrics": {
+    "mse": 1.4613573551177979,
+    "n_samples": 7680,
+    "ce_loss_without_sae": null,
+    "ce_loss_with_sae": null,
+    "ce_loss_with_ablation": null,
+    "ce_loss_score": null,
+    "kl_div_with_sae": null,
+    "kl_div_with_ablation": null,
+    "kl_div_score": null
+  }
+}

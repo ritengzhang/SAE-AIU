@@ -1,0 +1,3365 @@
+{
+  "quantile_stats": {
+    "Q1 (0-25%)": {
+      "n_features": 779,
+      "n_sampled": 20,
+      "min_dominance": 0.00033134941750176947,
+      "max_dominance": 0.00831734777066231,
+      "mean_dominance": 0.0008419535253395478,
+      "min_firing": 134,
+      "max_firing": 1600,
+      "mean_firing": 959.4659820282413,
+      "firing_percentage": 59.96662387676508
+    },
+    "Q2 (25-50%)": {
+      "n_features": 779,
+      "n_sampled": 20,
+      "min_dominance": 0.00016897673149287584,
+      "max_dominance": 0.000331097874459374,
+      "mean_dominance": 0.00023879465860579272,
+      "min_firing": 85,
+      "max_firing": 870,
+      "mean_firing": 484.26572528883185,
+      "firing_percentage": 30.26660783055199
+    },
+    "Q3 (50-75%)": {
+      "n_features": 779,
+      "n_sampled": 20,
+      "min_dominance": 7.269775624081376e-05,
+      "max_dominance": 0.0001688860606009257,
+      "mean_dominance": 0.00012009868995314392,
+      "min_firing": 84,
+      "max_firing": 627,
+      "mean_firing": 312.12451861360717,
+      "firing_percentage": 19.507782413350448
+    },
+    "Q4 (75-100%)": {
+      "n_features": 782,
+      "n_sampled": 20,
+      "min_dominance": 5.429129487311002e-06,
+      "max_dominance": 7.258904952323064e-05,
+      "mean_dominance": 3.863369227159144e-05,
+      "min_firing": 80,
+      "max_firing": 352,
+      "mean_firing": 134.5460358056266,
+      "firing_percentage": 8.409127237851662
+    }
+  },
+  "explanations": {
+    "2833": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of transition or connection between words, particularly focusing on punctuation marks, articles, and pronouns.",
+      "error": null
+    },
+    "15702": {
+      "explanation": "This feature in a sparse autoencoder detects irregular characters or symbols, such as punctuation marks or diacritics, that deviate from expected text patterns.",
+      "error": null
+    },
+    "1321": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating connections or transitions between words or phrases, such as \"your,\" \"rest,\" \"se,\" \"ie,\" \"up,\" \"its,\"",
+      "error": null
+    },
+    "15256": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to actions or operations mentioned in text, particularly tokens such as \"acion,\" \"ica,\" \"ion,\" and \"ci\u00f3n.\"",
+      "error": null
+    },
+    "13577": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to temporal and quantitative concepts, such as time expressions (day, yearly, simultaneously), quantifiers (exactly, nearly one million",
+      "error": null
+    },
+    "13876": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating connections or transitions between different parts of text, such as articles, segments, or lists, as well as conjunctions and prepositions",
+      "error": null
+    },
+    "1723": {
+      "explanation": "This feature in a sparse autoencoder detects sequences containing conjunctions, list markers, or tokens indicating a change in sequence or structure.",
+      "error": null
+    },
+    "8791": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating article determiners, conjunctions, and punctuation marks, particularly those signaling the beginning or transition of phrases or sentences.",
+      "error": null
+    },
+    "2616": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to quotation marks, commas, and symbols like \">\" and \"/\" in text.",
+      "error": null
+    },
+    "14445": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to tag start and end symbols (\"<\" and \">\"), as well as specific keywords such as \"maxOccurs,\" \"minOcc",
+      "error": null
+    },
+    "6462": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to metadata descriptions, field names, and instructional phrases, such as \"description,\" \"elements,\" \"field,\" \"Click,\" and \"",
+      "error": null
+    },
+    "9287": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to opening and closing XML tags in text.",
+      "error": null
+    },
+    "8688": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of verbs in various tenses, particularly those signaling intent or action, such as \"will do,\" \"do,\" \"on",
+      "error": null
+    },
+    "10220": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of decision-making, actions, or states, such as \"do,\" \"want,\" \"mean,\" \"should,\" \"point,\"",
+      "error": null
+    },
+    "7457": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to specific data tokens, such as \"dat,\" \"np,\" \"ype,\" \":-,\" and \"phase,\" often found in contexts",
+      "error": null
+    },
+    "8358": {
+      "explanation": "This feature in a sparse autoencoder detects patterns indicating potential connections between words, particularly those signaling causality, conditionality, or temporal relationships. (e.g., \"result\", \"",
+      "error": null
+    },
+    "10862": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to articles, conjunctions, and possessive pronouns in text.",
+      "error": null
+    },
+    "9853": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of connectors and quantifiers, such as \"is,\" \"among,\" \"any,\" \"whatever,\" \"as,\" \"",
+      "error": null
+    },
+    "7612": {
+      "explanation": "This feature in a sparse autoencoder detects co-occurring tokens, particularly conjunctions, articles, and quantifiers, indicating connections or relationships between words in the text.",
+      "error": null
+    },
+    "3111": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to parentheses, quotation marks, and articles or determiner words.",
+      "error": null
+    },
+    "9932": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to infix tokens \"ing\" or \"able/ible\" in verb forms, and the definite article \"the\" or \"an",
+      "error": null
+    },
+    "11935": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, quantifiers, and determiners that introduce comparisons or alternatives, such as \"that,\" \"more,\" \"really",
+      "error": null
+    },
+    "6736": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to actions or concepts associated with conquest, control, or ownership, such as \"conquer,\" \"independent,\" \"Borg,\"",
+      "error": null
+    },
+    "13333": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, quantifiers, and indicators of lists or sequences, such as commas, \"for,\" \"of,\" \"a",
+      "error": null
+    },
+    "9742": {
+      "explanation": "This feature in a sparse autoencoder detects common linguistic structures such as questions, competitions, materials, businesses, connectors, and program/tool mentions.",
+      "error": null
+    },
+    "14503": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to media outlets, journalism, and specific websites or domains.",
+      "error": null
+    },
+    "806": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of connectors and quantifiers, such as \"of,\" \"unless,\" \"you,\" \"are,\" \"is,\" \"should,\" and",
+      "error": null
+    },
+    "16177": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating article connectors, article determiners, prepositions, negations, and prefixes, potentially signaling transitions or modifications in the text",
+      "error": null
+    },
+    "15112": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to opening and closing XML tags or parentheses in text.",
+      "error": null
+    },
+    "10828": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of words or symbols indicating relationships of connection or transition, such as \"into,\" \"on,\" \"after,\" \"of,\" and \"ang,\"",
+      "error": null
+    },
+    "8167": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to specific keywords or concepts within text, particularly those related to scientific principles, theories, and programs.",
+      "error": null
+    },
+    "2674": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of conditional statements, qualifiers, and examples, such as \"if,\" \"maybe,\" \"as,\" \"example,\" and \"",
+      "error": null
+    },
+    "5142": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to contrasting concepts or alternatives, as well as specific and consistent entities or states. (15 words)",
+      "error": null
+    },
+    "11222": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating connections or transitions between different parts of text, such as \"from,\" \"into,\" \"to,\" \"one of,\" \"another,\"",
+      "error": null
+    },
+    "487": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, articles, and quantifiers, particularly when signaling transitions or connections between parts of a sentence.",
+      "error": null
+    },
+    "4961": {
+      "explanation": "This feature in a sparse autoencoder detects numerical values and comparisons, particularly those representing quantities or thresholds, such as \"60\", \"an\", \"76\", \"1",
+      "error": null
+    },
+    "7404": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to conjunctions, modal verbs, and articles, particularly when they indicate connections between ideas, conditions, or quantities in text.",
+      "error": null
+    },
+    "8805": {
+      "explanation": "This feature in a sparse autoencoder (SAE) detects punctuation marks, particularly the period (.), as indicators of sentence-ending or statement completions.",
+      "error": null
+    },
+    "11865": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of connectors, quantifiers, or articles, suggesting a preference for processing sequences with frequent transitions or comparisons.",
+      "error": null
+    },
+    "1040": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating personal pronouns, articles, and conjunctions, particularly when they initiate or connect phrases or clauses.",
+      "error": null
+    },
+    "105": {
+      "explanation": "This feature in a sparse autoencoder detects patterns indicating the presence of temporal sequences or transitions, particularly those related to the occurrence of events or changes. The top activation tokens include words signaling",
+      "error": null
+    },
+    "5835": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to spatial proximity and transitions between words, such as \"in,\" \"on,\" \"at,\" \"table,\" and \"back,\" as",
+      "error": null
+    },
+    "5583": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, articles, and pronouns connecting words or phrases in text sequences.",
+      "error": null
+    },
+    "6650": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to subjective experiences, personal pronouns, instructions, and keywords indicative of accomplishment, persistence, and hope.",
+      "error": null
+    },
+    "15741": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating connections, transitions, or modifications in text sequences, such as prepositions (\"of,\" \"for,\" \"in,\" \"changing,\" \"",
+      "error": null
+    },
+    "6221": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, prepositions, and possessive pronouns connecting words or phrases in text sequences.",
+      "error": null
+    },
+    "12208": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating article or text context transitions, such as \"in,\" \"at,\" \"of,\" \"from,\" and proper nouns, particularly when",
+      "error": null
+    },
+    "1358": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating change, temporal markers, and personal pronouns, suggesting it identifies patterns related to dynamic or subjective elements in text.",
+      "error": null
+    },
+    "6246": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of connectors and transition words, such as \"to,\" \"and,\" \"of,\" \"a,\" \"how,\" \"hence,\" \"",
+      "error": null
+    },
+    "3924": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to temporal transitions and modifications in text, such as \"as,\" \"until,\" \"exacerbated,\" \"simplified,\" \"",
+      "error": null
+    },
+    "10291": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunction or disjunction in text, specifically the presence of the words \"and\" or \"or,\" indicating connections or alternatives between different",
+      "error": null
+    },
+    "1239": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to the presence of articles, prepositions, and place names in text.",
+      "error": null
+    },
+    "13496": {
+      "explanation": "This feature in a sparse autoencoder detects patterns indicating questions or topics that initiate a sequence, connectors signaling causality or sequence progression, and keywords signaling methods, ways,",
+      "error": null
+    },
+    "4939": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating connections or transitions between parts of sentences, such as \"with,\" \"about,\" \"needed,\" \"to,\" \"among,\" \"",
+      "error": null
+    },
+    "15077": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to prepositions indicating the presence of phrases or ideas being introduced into, or connected with, other elements in the text.",
+      "error": null
+    },
+    "3270": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, punctuation marks, and words indicating uncertainty or conditionality, such as \"when,\" \"if,\" \"but,\" \"",
+      "error": null
+    },
+    "11954": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of co-occurring words, specifically \"with\" and \"among,\" indicating relationships or connections between entities or concepts in text.",
+      "error": null
+    },
+    "16154": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of transitions or connections between words or phrases, such as \"to,\" \"of,\" \"and,\" \"in,\" and \"with,\"",
+      "error": null
+    },
+    "14028": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating personal experiences, connections, and transitions in text, such as \"importance,\" \"me,\" \"personally,\" \"to,\" \"its",
+      "error": null
+    },
+    "13301": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to the presence of prepositions and articles, particularly \"in,\" \"from,\" and \"the,\" as well as mentions of specific",
+      "error": null
+    },
+    "5681": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to prepositions and articles, particularly those indicating connections between words or phrases.",
+      "error": null
+    },
+    "4183": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, prepositions, and articles, particularly those indicating relationships between phrases or clauses.",
+      "error": null
+    },
+    "15516": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to the presence of the word \"states\" or similar forms, indicating contexts involving dynamic systems, transitions, or configurations.",
+      "error": null
+    },
+    "14363": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of transitions, connectors, or topic shifts in text, such as conjunctions, prepositions, and question marks.",
+      "error": null
+    },
+    "61": {
+      "explanation": "This feature in a sparse autoencoder detects common linguistic markers signaling transitions or connections between words or phrases, such as conjunctions, articles, and modal verbs.",
+      "error": null
+    },
+    "13297": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to temporal sequences and temporal modifications in text, such as \"before,\" \"earlier,\" \"initially,\" \"previously,\" \"",
+      "error": null
+    },
+    "13416": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, article connectors, and separators in text sequences.",
+      "error": null
+    },
+    "32": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, prepositions, and tokens preceded by a comma or colon, indicating potential transitions or connections between words or phrases",
+      "error": null
+    },
+    "8022": {
+      "explanation": "This feature in a sparse autoencoder detects patterns indicative of conjunctions, articles, and quantifiers, particularly those signaling connections between phrases or sets.",
+      "error": null
+    },
+    "6219": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to article openers, transitions, and indicators of lists or sequences.",
+      "error": null
+    },
+    "2394": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of transitions, connections, or dependencies between words, such as conjunctions, articles, prepositions, and determiners.",
+      "error": null
+    },
+    "16194": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicating subjective experiences, uncertainty, or emphasis, such as \"I,\" \"really,\" \"me,\" \"not,\" and \"a,\"",
+      "error": null
+    },
+    "2084": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, comparisons, and numerical values, particularly when they are used to modify or connect words or phrases.",
+      "error": null
+    },
+    "1866": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to article or essay introductions, particularly those that begin with indefinite articles (\"a,\" \"an,\" \"the\") or phrases",
+      "error": null
+    },
+    "11003": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of transitions, comparisons, quantities, and modal verbs, as they often signal changes or relationships between elements in text.",
+      "error": null
+    },
+    "143": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, prepositions, and auxiliary verbs, particularly those indicating connections between clauses or phrases in text.",
+      "error": null
+    },
+    "14678": {
+      "explanation": "This feature in a sparse autoencoder detects patterns of conjunctions, quantifiers, and pronouns connecting words or phrases in text sequences.",
+      "error": null
+    },
+    "5668": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to groups or sets, particularly those involving mentions of specific categories or lists, such as \"functions,\" \"weaknesses,\" \"elect",
+      "error": null
+    },
+    "15911": {
+      "explanation": "This feature in a sparse autoencoder detects tokens indicative of temporal transitions or connectors, such as \"until,\" \"soon,\" \"then,\" \"was,\" and \"give,\"",
+      "error": null
+    },
+    "9357": {
+      "explanation": "This feature in a sparse autoencoder detects patterns related to pronouns indicating the subject or object of interactions between people, and conjunctions connecting related ideas or actions.",
+      "error": null
+    }
+  },
+  "collection_stats": {
+    "2833": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15702": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1321": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15256": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13577": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13876": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1723": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8791": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "2616": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "14445": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6462": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "9287": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8688": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "10220": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "7457": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8358": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "10862": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "9853": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "7612": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "3111": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "9932": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "11935": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 457,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6736": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13333": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "9742": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 468,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "14503": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "806": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 482,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "16177": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15112": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 165,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "10828": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8167": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "2674": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 508,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "5142": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 396,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "11222": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "487": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "4961": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 486,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "7404": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 533,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8805": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 509,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "11865": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 472,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1040": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 486,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "105": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 361,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "5835": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 397,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "5583": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 529,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6650": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 273,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15741": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 476,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6221": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 357,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "12208": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 497,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1358": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 419,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6246": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 497,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "3924": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 390,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "10291": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 442,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1239": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 490,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13496": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 278,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "4939": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 371,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15077": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 356,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "3270": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 269,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "11954": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 329,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "16154": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 421,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "14028": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 445,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13301": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 442,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "5681": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 304,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "4183": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 237,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15516": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 155,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "14363": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 264,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "61": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 313,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13297": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 136,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "13416": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 271,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "32": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 298,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "8022": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 274,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "6219": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 238,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "2394": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 215,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "16194": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 221,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "2084": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 288,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "1866": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 167,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "11003": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 199,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "143": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 250,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "14678": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 304,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "5668": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 300,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "15911": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 327,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    },
+    "9357": {
+      "n_total_max": 1600,
+      "n_total_sum": 1600,
+      "n_high_bin_max": 533,
+      "n_high_bin_max_fired": 208,
+      "n_low_bin_max": 534,
+      "n_high_explanation": 20,
+      "n_high_evaluation": 40,
+      "n_low_contrast": 20,
+      "n_total_sequences": 80,
+      "n_bin_A": 20,
+      "n_bin_B": 20,
+      "n_bin_C": 20
+    }
+  },
+  "token_results": {
+    "2833": {
+      "feature_idx": 2833,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.5683012701892219,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.3833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15702": {
+      "feature_idx": 15702,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.825,
+      "mean_pairwise_acc": 0.8666666666666666,
+      "mean_rank_distance": 0.21666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "1321": {
+      "feature_idx": 1321,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.35,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.6333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15256": {
+      "feature_idx": 15256,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.5683012701892219,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.4166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "13577": {
+      "feature_idx": 13577,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.25,
+      "mean_pairwise_acc": 0.45,
+      "mean_rank_distance": 0.7166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "13876": {
+      "feature_idx": 13876,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.2,
+      "mean_pairwise_acc": 0.25,
+      "mean_rank_distance": 0.7666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "1723": {
+      "feature_idx": 1723,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.725,
+      "mean_pairwise_acc": 0.7833333333333333,
+      "mean_rank_distance": 0.3333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "8791": {
+      "feature_idx": 8791,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.425,
+      "mean_pairwise_acc": 0.45,
+      "mean_rank_distance": 0.5999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "2616": {
+      "feature_idx": 2616,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8166666666666667,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "14445": {
+      "feature_idx": 14445,
+      "perfect_ranking_acc": 0.15,
+      "mean_rank_correlation": 0.125,
+      "mean_pairwise_acc": 0.5166666666666666,
+      "mean_rank_distance": 0.8166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "6462": {
+      "feature_idx": 6462,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.5232050807568878,
+      "mean_pairwise_acc": 0.6,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "9287": {
+      "feature_idx": 9287,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.8098076211353316,
+      "mean_pairwise_acc": 0.8166666666666667,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "8688": {
+      "feature_idx": 8688,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.6,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "10220": {
+      "feature_idx": 10220,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.21830127018922196,
+      "mean_pairwise_acc": 0.26666666666666666,
+      "mean_rank_distance": 0.7666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "7457": {
+      "feature_idx": 7457,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.6833333333333333,
+      "mean_rank_distance": 0.5,
+      "n_questions": 20,
+      "error": null
+    },
+    "8358": {
+      "feature_idx": 8358,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.31830127018922194,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.7166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "10862": {
+      "feature_idx": 10862,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.65,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.36666666666666664,
+      "n_questions": 20,
+      "error": null
+    },
+    "9853": {
+      "feature_idx": 9853,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.575,
+      "mean_pairwise_acc": 0.5833333333333333,
+      "mean_rank_distance": 0.4333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "7612": {
+      "feature_idx": 7612,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.4333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "3111": {
+      "feature_idx": 3111,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.35,
+      "mean_pairwise_acc": 0.4833333333333333,
+      "mean_rank_distance": 0.6166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "9932": {
+      "feature_idx": 9932,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.5433012701892219,
+      "mean_pairwise_acc": 0.65,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "11935": {
+      "feature_idx": 11935,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.3049038105676658,
+      "mean_pairwise_acc": 0.41666666666666663,
+      "mean_rank_distance": 0.65,
+      "n_questions": 20,
+      "error": null
+    },
+    "6736": {
+      "feature_idx": 6736,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.025,
+      "mean_pairwise_acc": 0.25,
+      "mean_rank_distance": 0.9,
+      "n_questions": 20,
+      "error": null
+    },
+    "13333": {
+      "feature_idx": 13333,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.6,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.35,
+      "n_questions": 20,
+      "error": null
+    },
+    "9742": {
+      "feature_idx": 9742,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.19330127018922197,
+      "mean_pairwise_acc": 0.26666666666666666,
+      "mean_rank_distance": 0.8166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "14503": {
+      "feature_idx": 14503,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.31830127018922194,
+      "mean_pairwise_acc": 0.4666666666666667,
+      "mean_rank_distance": 0.6833333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "806": {
+      "feature_idx": 806,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.275,
+      "mean_pairwise_acc": 0.4,
+      "mean_rank_distance": 0.7333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "16177": {
+      "feature_idx": 16177,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.425,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.5833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15112": {
+      "feature_idx": 15112,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.675,
+      "mean_pairwise_acc": 0.7833333333333332,
+      "mean_rank_distance": 0.33333333333333337,
+      "n_questions": 20,
+      "error": null
+    },
+    "10828": {
+      "feature_idx": 10828,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.3,
+      "mean_pairwise_acc": 0.41666666666666663,
+      "mean_rank_distance": 0.65,
+      "n_questions": 20,
+      "error": null
+    },
+    "8167": {
+      "feature_idx": 8167,
+      "perfect_ranking_acc": 0.15,
+      "mean_rank_correlation": 0.03169872981077806,
+      "mean_pairwise_acc": 0.39999999999999997,
+      "mean_rank_distance": 0.8999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "2674": {
+      "feature_idx": 2674,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.31160254037844387,
+      "mean_pairwise_acc": 0.38333333333333336,
+      "mean_rank_distance": 0.6833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "5142": {
+      "feature_idx": 5142,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.6683012701892219,
+      "mean_pairwise_acc": 0.7166666666666666,
+      "mean_rank_distance": 0.4,
+      "n_questions": 20,
+      "error": null
+    },
+    "11222": {
+      "feature_idx": 11222,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.375,
+      "mean_pairwise_acc": 0.3833333333333333,
+      "mean_rank_distance": 0.6333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "487": {
+      "feature_idx": 487,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.24330127018922196,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.7166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "4961": {
+      "feature_idx": 4961,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": 0.025,
+      "mean_pairwise_acc": 0.3333333333333333,
+      "mean_rank_distance": 0.9333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "7404": {
+      "feature_idx": 7404,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.6,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.36666666666666664,
+      "n_questions": 20,
+      "error": null
+    },
+    "8805": {
+      "feature_idx": 8805,
+      "perfect_ranking_acc": 0.85,
+      "mean_rank_correlation": 0.875,
+      "mean_pairwise_acc": 0.8999999999999998,
+      "mean_rank_distance": 0.13333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "11865": {
+      "feature_idx": 11865,
+      "perfect_ranking_acc": 0.75,
+      "mean_rank_correlation": 0.85,
+      "mean_pairwise_acc": 0.8833333333333332,
+      "mean_rank_distance": 0.18333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "1040": {
+      "feature_idx": 1040,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.35000000000000003,
+      "mean_pairwise_acc": 0.5166666666666666,
+      "mean_rank_distance": 0.6333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "105": {
+      "feature_idx": 105,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.5433012701892219,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "5835": {
+      "feature_idx": 5835,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.5799038105676659,
+      "mean_pairwise_acc": 0.6333333333333332,
+      "mean_rank_distance": 0.45,
+      "n_questions": 20,
+      "error": null
+    },
+    "5583": {
+      "feature_idx": 5583,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.675,
+      "mean_pairwise_acc": 0.7333333333333332,
+      "mean_rank_distance": 0.3833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "6650": {
+      "feature_idx": 6650,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.618301270189222,
+      "mean_pairwise_acc": 0.7333333333333332,
+      "mean_rank_distance": 0.38333333333333336,
+      "n_questions": 20,
+      "error": null
+    },
+    "15741": {
+      "feature_idx": 15741,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.6166666666666665,
+      "mean_rank_distance": 0.4833333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "6221": {
+      "feature_idx": 6221,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8,
+      "mean_rank_distance": 0.25,
+      "n_questions": 20,
+      "error": null
+    },
+    "12208": {
+      "feature_idx": 12208,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.25,
+      "mean_pairwise_acc": 0.31666666666666665,
+      "mean_rank_distance": 0.7333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "1358": {
+      "feature_idx": 1358,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.6866025403784439,
+      "mean_pairwise_acc": 0.75,
+      "mean_rank_distance": 0.31666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "6246": {
+      "feature_idx": 6246,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": 0.11830127018922194,
+      "mean_pairwise_acc": 0.26666666666666666,
+      "mean_rank_distance": 0.8666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "3924": {
+      "feature_idx": 3924,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.4,
+      "mean_pairwise_acc": 0.41666666666666663,
+      "mean_rank_distance": 0.6166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "10291": {
+      "feature_idx": 10291,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.46160254037844395,
+      "mean_pairwise_acc": 0.5666666666666667,
+      "mean_rank_distance": 0.5166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "1239": {
+      "feature_idx": 1239,
+      "perfect_ranking_acc": 0.8,
+      "mean_rank_correlation": 0.8,
+      "mean_pairwise_acc": 0.8666666666666666,
+      "mean_rank_distance": 0.1833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "13496": {
+      "feature_idx": 13496,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.725,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.2833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "4939": {
+      "feature_idx": 4939,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.5683012701892219,
+      "mean_pairwise_acc": 0.5833333333333333,
+      "mean_rank_distance": 0.45,
+      "n_questions": 20,
+      "error": null
+    },
+    "15077": {
+      "feature_idx": 15077,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.6933012701892219,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.36666666666666664,
+      "n_questions": 20,
+      "error": null
+    },
+    "3270": {
+      "feature_idx": 3270,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.518301270189222,
+      "mean_pairwise_acc": 0.5833333333333333,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "11954": {
+      "feature_idx": 11954,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.45,
+      "mean_pairwise_acc": 0.4666666666666666,
+      "mean_rank_distance": 0.5666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "16154": {
+      "feature_idx": 16154,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.493301270189222,
+      "mean_pairwise_acc": 0.5666666666666667,
+      "mean_rank_distance": 0.5,
+      "n_questions": 20,
+      "error": null
+    },
+    "14028": {
+      "feature_idx": 14028,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.21830127018922196,
+      "mean_pairwise_acc": 0.4833333333333333,
+      "mean_rank_distance": 0.7,
+      "n_questions": 20,
+      "error": null
+    },
+    "13301": {
+      "feature_idx": 13301,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.275,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.65,
+      "n_questions": 20,
+      "error": null
+    },
+    "5681": {
+      "feature_idx": 5681,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.5,
+      "mean_pairwise_acc": 0.6,
+      "mean_rank_distance": 0.4333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "4183": {
+      "feature_idx": 4183,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.375,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.5999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "15516": {
+      "feature_idx": 15516,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.736602540378444,
+      "mean_pairwise_acc": 0.7999999999999999,
+      "mean_rank_distance": 0.2833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "14363": {
+      "feature_idx": 14363,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.618301270189222,
+      "mean_pairwise_acc": 0.6333333333333333,
+      "mean_rank_distance": 0.41666666666666663,
+      "n_questions": 20,
+      "error": null
+    },
+    "61": {
+      "feature_idx": 61,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.518301270189222,
+      "mean_pairwise_acc": 0.6333333333333332,
+      "mean_rank_distance": 0.4499999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "13297": {
+      "feature_idx": 13297,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.4,
+      "mean_pairwise_acc": 0.5333333333333333,
+      "mean_rank_distance": 0.5833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "13416": {
+      "feature_idx": 13416,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.675,
+      "mean_pairwise_acc": 0.7166666666666666,
+      "mean_rank_distance": 0.36666666666666664,
+      "n_questions": 20,
+      "error": null
+    },
+    "32": {
+      "feature_idx": 32,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.6166666666666665,
+      "mean_rank_distance": 0.5666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "8022": {
+      "feature_idx": 8022,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.7,
+      "mean_pairwise_acc": 0.7333333333333332,
+      "mean_rank_distance": 0.33333333333333337,
+      "n_questions": 20,
+      "error": null
+    },
+    "6219": {
+      "feature_idx": 6219,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.5433012701892219,
+      "mean_pairwise_acc": 0.5833333333333333,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "2394": {
+      "feature_idx": 2394,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.6,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.4166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "16194": {
+      "feature_idx": 16194,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.3366025403784439,
+      "mean_pairwise_acc": 0.4999999999999999,
+      "mean_rank_distance": 0.6833333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "2084": {
+      "feature_idx": 2084,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.4833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "1866": {
+      "feature_idx": 1866,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.06830127018922194,
+      "mean_pairwise_acc": 0.45,
+      "mean_rank_distance": 0.8,
+      "n_questions": 20,
+      "error": null
+    },
+    "11003": {
+      "feature_idx": 11003,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.743301270189222,
+      "mean_pairwise_acc": 0.7499999999999999,
+      "mean_rank_distance": 0.2833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "143": {
+      "feature_idx": 143,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.4,
+      "mean_pairwise_acc": 0.6,
+      "mean_rank_distance": 0.6,
+      "n_questions": 20,
+      "error": null
+    },
+    "14678": {
+      "feature_idx": 14678,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.7,
+      "mean_pairwise_acc": 0.7333333333333332,
+      "mean_rank_distance": 0.33333333333333337,
+      "n_questions": 20,
+      "error": null
+    },
+    "5668": {
+      "feature_idx": 5668,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.3,
+      "mean_pairwise_acc": 0.4666666666666666,
+      "mean_rank_distance": 0.6833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15911": {
+      "feature_idx": 15911,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.46830127018922196,
+      "mean_pairwise_acc": 0.4833333333333333,
+      "mean_rank_distance": 0.5666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "9357": {
+      "feature_idx": 9357,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.675,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.3,
+      "n_questions": 20,
+      "error": null
+    }
+  },
+  "sentence_results": {
+    "2833": {
+      "feature_idx": 2833,
+      "perfect_ranking_acc": 0.9,
+      "mean_rank_correlation": 0.9683012701892221,
+      "mean_pairwise_acc": 0.9666666666666666,
+      "mean_rank_distance": 0.05,
+      "n_questions": 20,
+      "error": null
+    },
+    "15702": {
+      "feature_idx": 15702,
+      "perfect_ranking_acc": 0.75,
+      "mean_rank_correlation": 0.825,
+      "mean_pairwise_acc": 0.85,
+      "mean_rank_distance": 0.19999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "1321": {
+      "feature_idx": 1321,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.45,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.5333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15256": {
+      "feature_idx": 15256,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.7,
+      "mean_rank_distance": 0.4333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "13577": {
+      "feature_idx": 13577,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.225,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.7499999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "13876": {
+      "feature_idx": 13876,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.5683012701892219,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.4833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "1723": {
+      "feature_idx": 1723,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.475,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.5,
+      "n_questions": 20,
+      "error": null
+    },
+    "8791": {
+      "feature_idx": 8791,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.675,
+      "mean_pairwise_acc": 0.7833333333333333,
+      "mean_rank_distance": 0.35,
+      "n_questions": 20,
+      "error": null
+    },
+    "2616": {
+      "feature_idx": 2616,
+      "perfect_ranking_acc": 0.75,
+      "mean_rank_correlation": 0.7933012701892219,
+      "mean_pairwise_acc": 0.8333333333333333,
+      "mean_rank_distance": 0.21666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "14445": {
+      "feature_idx": 14445,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.7,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "6462": {
+      "feature_idx": 6462,
+      "perfect_ranking_acc": 0.15,
+      "mean_rank_correlation": 0.2,
+      "mean_pairwise_acc": 0.4833333333333333,
+      "mean_rank_distance": 0.7666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "9287": {
+      "feature_idx": 9287,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": 0.49641016151377554,
+      "mean_pairwise_acc": 0.5166666666666666,
+      "mean_rank_distance": 0.6,
+      "n_questions": 20,
+      "error": null
+    },
+    "8688": {
+      "feature_idx": 8688,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.35,
+      "mean_pairwise_acc": 0.55,
+      "mean_rank_distance": 0.6666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "10220": {
+      "feature_idx": 10220,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.2,
+      "mean_pairwise_acc": 0.4333333333333333,
+      "mean_rank_distance": 0.7833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "7457": {
+      "feature_idx": 7457,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.30669872981077806,
+      "mean_pairwise_acc": 0.4499999999999999,
+      "mean_rank_distance": 0.7,
+      "n_questions": 20,
+      "error": null
+    },
+    "8358": {
+      "feature_idx": 8358,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.225,
+      "mean_pairwise_acc": 0.45,
+      "mean_rank_distance": 0.7,
+      "n_questions": 20,
+      "error": null
+    },
+    "10862": {
+      "feature_idx": 10862,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.725,
+      "mean_pairwise_acc": 0.7666666666666666,
+      "mean_rank_distance": 0.31666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "9853": {
+      "feature_idx": 9853,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.7,
+      "mean_pairwise_acc": 0.7833333333333333,
+      "mean_rank_distance": 0.3,
+      "n_questions": 20,
+      "error": null
+    },
+    "7612": {
+      "feature_idx": 7612,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.39330127018922195,
+      "mean_pairwise_acc": 0.5833333333333333,
+      "mean_rank_distance": 0.6,
+      "n_questions": 20,
+      "error": null
+    },
+    "3111": {
+      "feature_idx": 3111,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.5,
+      "mean_pairwise_acc": 0.6333333333333332,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "9932": {
+      "feature_idx": 9932,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.44330127018922194,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.5333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "11935": {
+      "feature_idx": 11935,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.46160254037844395,
+      "mean_pairwise_acc": 0.4999999999999999,
+      "mean_rank_distance": 0.5666666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "6736": {
+      "feature_idx": 6736,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": -0.15,
+      "mean_pairwise_acc": 0.16666666666666669,
+      "mean_rank_distance": 0.9999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "13333": {
+      "feature_idx": 13333,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.475,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.4833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "9742": {
+      "feature_idx": 9742,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.425,
+      "mean_pairwise_acc": 0.4833333333333333,
+      "mean_rank_distance": 0.6333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "14503": {
+      "feature_idx": 14503,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.1415063509461097,
+      "mean_pairwise_acc": 0.4166666666666667,
+      "mean_rank_distance": 0.8166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "806": {
+      "feature_idx": 806,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.475,
+      "mean_pairwise_acc": 0.4999999999999999,
+      "mean_rank_distance": 0.5499999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "16177": {
+      "feature_idx": 16177,
+      "perfect_ranking_acc": 0.75,
+      "mean_rank_correlation": 0.8,
+      "mean_pairwise_acc": 0.8166666666666667,
+      "mean_rank_distance": 0.21666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "15112": {
+      "feature_idx": 15112,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.8299038105676658,
+      "mean_pairwise_acc": 0.8333333333333333,
+      "mean_rank_distance": 0.2333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "10828": {
+      "feature_idx": 10828,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.1,
+      "mean_pairwise_acc": 0.3333333333333333,
+      "mean_rank_distance": 0.8,
+      "n_questions": 20,
+      "error": null
+    },
+    "8167": {
+      "feature_idx": 8167,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": 0.06830127018922194,
+      "mean_pairwise_acc": 0.35000000000000003,
+      "mean_rank_distance": 0.8833333333333334,
+      "n_questions": 20,
+      "error": null
+    },
+    "2674": {
+      "feature_idx": 2674,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "5142": {
+      "feature_idx": 5142,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.4833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "11222": {
+      "feature_idx": 11222,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.325,
+      "mean_pairwise_acc": 0.45,
+      "mean_rank_distance": 0.6333333333333334,
+      "n_questions": 20,
+      "error": null
+    },
+    "487": {
+      "feature_idx": 487,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.6,
+      "mean_pairwise_acc": 0.7166666666666666,
+      "mean_rank_distance": 0.4333333333333334,
+      "n_questions": 20,
+      "error": null
+    },
+    "4961": {
+      "feature_idx": 4961,
+      "perfect_ranking_acc": 0.0,
+      "mean_rank_correlation": -0.275,
+      "mean_pairwise_acc": 0.18333333333333332,
+      "mean_rank_distance": 1.0999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "7404": {
+      "feature_idx": 7404,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.8,
+      "mean_pairwise_acc": 0.8333333333333333,
+      "mean_rank_distance": 0.2333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "8805": {
+      "feature_idx": 8805,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.65,
+      "mean_pairwise_acc": 0.7833333333333332,
+      "mean_rank_distance": 0.3166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "11865": {
+      "feature_idx": 11865,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.575,
+      "mean_pairwise_acc": 0.7,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "1040": {
+      "feature_idx": 1040,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.861602540378444,
+      "mean_pairwise_acc": 0.8833333333333334,
+      "mean_rank_distance": 0.19999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "105": {
+      "feature_idx": 105,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.475,
+      "mean_pairwise_acc": 0.6166666666666666,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "5835": {
+      "feature_idx": 5835,
+      "perfect_ranking_acc": 0.15,
+      "mean_rank_correlation": 0.04330127018922193,
+      "mean_pairwise_acc": 0.35000000000000003,
+      "mean_rank_distance": 0.8499999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "5583": {
+      "feature_idx": 5583,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.6333333333333332,
+      "mean_rank_distance": 0.5333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "6650": {
+      "feature_idx": 6650,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.6683012701892219,
+      "mean_pairwise_acc": 0.7833333333333332,
+      "mean_rank_distance": 0.4166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "15741": {
+      "feature_idx": 15741,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.46830127018922196,
+      "mean_pairwise_acc": 0.5166666666666665,
+      "mean_rank_distance": 0.5999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "6221": {
+      "feature_idx": 6221,
+      "perfect_ranking_acc": 0.8,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8833333333333334,
+      "mean_rank_distance": 0.19999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "12208": {
+      "feature_idx": 12208,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.5,
+      "mean_pairwise_acc": 0.6166666666666667,
+      "mean_rank_distance": 0.5166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "1358": {
+      "feature_idx": 1358,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.6666666666666666,
+      "mean_rank_distance": 0.4666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "6246": {
+      "feature_idx": 6246,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.225,
+      "mean_pairwise_acc": 0.3666666666666666,
+      "mean_rank_distance": 0.75,
+      "n_questions": 20,
+      "error": null
+    },
+    "3924": {
+      "feature_idx": 3924,
+      "perfect_ranking_acc": 0.2,
+      "mean_rank_correlation": 0.3,
+      "mean_pairwise_acc": 0.33333333333333337,
+      "mean_rank_distance": 0.7333333333333332,
+      "n_questions": 20,
+      "error": null
+    },
+    "10291": {
+      "feature_idx": 10291,
+      "perfect_ranking_acc": 0.3,
+      "mean_rank_correlation": 0.3,
+      "mean_pairwise_acc": 0.41666666666666663,
+      "mean_rank_distance": 0.6833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "1239": {
+      "feature_idx": 1239,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.525,
+      "mean_pairwise_acc": 0.6499999999999999,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "13496": {
+      "feature_idx": 13496,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.625,
+      "mean_pairwise_acc": 0.7333333333333333,
+      "mean_rank_distance": 0.31666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "4939": {
+      "feature_idx": 4939,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.425,
+      "mean_pairwise_acc": 0.4666666666666666,
+      "mean_rank_distance": 0.6,
+      "n_questions": 20,
+      "error": null
+    },
+    "15077": {
+      "feature_idx": 15077,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.75,
+      "mean_pairwise_acc": 0.7999999999999999,
+      "mean_rank_distance": 0.3,
+      "n_questions": 20,
+      "error": null
+    },
+    "3270": {
+      "feature_idx": 3270,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "11954": {
+      "feature_idx": 11954,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.46830127018922196,
+      "mean_pairwise_acc": 0.5999999999999999,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "16154": {
+      "feature_idx": 16154,
+      "perfect_ranking_acc": 0.25,
+      "mean_rank_correlation": 0.25,
+      "mean_pairwise_acc": 0.4166666666666667,
+      "mean_rank_distance": 0.7333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "14028": {
+      "feature_idx": 14028,
+      "perfect_ranking_acc": 0.15,
+      "mean_rank_correlation": -0.125,
+      "mean_pairwise_acc": 0.2833333333333333,
+      "mean_rank_distance": 0.95,
+      "n_questions": 20,
+      "error": null
+    },
+    "13301": {
+      "feature_idx": 13301,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.5,
+      "mean_pairwise_acc": 0.6833333333333333,
+      "mean_rank_distance": 0.4333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "5681": {
+      "feature_idx": 5681,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.825,
+      "mean_pairwise_acc": 0.8666666666666666,
+      "mean_rank_distance": 0.21666666666666665,
+      "n_questions": 20,
+      "error": null
+    },
+    "4183": {
+      "feature_idx": 4183,
+      "perfect_ranking_acc": 0.5,
+      "mean_rank_correlation": 0.65,
+      "mean_pairwise_acc": 0.7666666666666665,
+      "mean_rank_distance": 0.38333333333333336,
+      "n_questions": 20,
+      "error": null
+    },
+    "15516": {
+      "feature_idx": 15516,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.24330127018922196,
+      "mean_pairwise_acc": 0.3333333333333333,
+      "mean_rank_distance": 0.7833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "14363": {
+      "feature_idx": 14363,
+      "perfect_ranking_acc": 0.7,
+      "mean_rank_correlation": 0.75,
+      "mean_pairwise_acc": 0.7666666666666666,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "61": {
+      "feature_idx": 61,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.718301270189222,
+      "mean_pairwise_acc": 0.7499999999999999,
+      "mean_rank_distance": 0.33333333333333337,
+      "n_questions": 20,
+      "error": null
+    },
+    "13297": {
+      "feature_idx": 13297,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.5433012701892219,
+      "mean_pairwise_acc": 0.6166666666666665,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "13416": {
+      "feature_idx": 13416,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8333333333333333,
+      "mean_rank_distance": 0.2833333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "32": {
+      "feature_idx": 32,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8333333333333333,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "8022": {
+      "feature_idx": 8022,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.75,
+      "mean_pairwise_acc": 0.85,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "6219": {
+      "feature_idx": 6219,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.475,
+      "mean_pairwise_acc": 0.5499999999999999,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "2394": {
+      "feature_idx": 2394,
+      "perfect_ranking_acc": 0.75,
+      "mean_rank_correlation": 0.825,
+      "mean_pairwise_acc": 0.85,
+      "mean_rank_distance": 0.19999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "16194": {
+      "feature_idx": 16194,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": -0.1633974596215561,
+      "mean_pairwise_acc": 0.21666666666666665,
+      "mean_rank_distance": 0.9999999999999998,
+      "n_questions": 20,
+      "error": null
+    },
+    "2084": {
+      "feature_idx": 2084,
+      "perfect_ranking_acc": 0.4,
+      "mean_rank_correlation": 0.55,
+      "mean_pairwise_acc": 0.6499999999999999,
+      "mean_rank_distance": 0.4999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "1866": {
+      "feature_idx": 1866,
+      "perfect_ranking_acc": 0.1,
+      "mean_rank_correlation": 0.2,
+      "mean_pairwise_acc": 0.4,
+      "mean_rank_distance": 0.8166666666666667,
+      "n_questions": 20,
+      "error": null
+    },
+    "11003": {
+      "feature_idx": 11003,
+      "perfect_ranking_acc": 0.6,
+      "mean_rank_correlation": 0.75,
+      "mean_pairwise_acc": 0.8,
+      "mean_rank_distance": 0.29999999999999993,
+      "n_questions": 20,
+      "error": null
+    },
+    "143": {
+      "feature_idx": 143,
+      "perfect_ranking_acc": 0.55,
+      "mean_rank_correlation": 0.7,
+      "mean_pairwise_acc": 0.7499999999999999,
+      "mean_rank_distance": 0.35,
+      "n_questions": 20,
+      "error": null
+    },
+    "14678": {
+      "feature_idx": 14678,
+      "perfect_ranking_acc": 0.65,
+      "mean_rank_correlation": 0.775,
+      "mean_pairwise_acc": 0.8166666666666667,
+      "mean_rank_distance": 0.26666666666666666,
+      "n_questions": 20,
+      "error": null
+    },
+    "5668": {
+      "feature_idx": 5668,
+      "perfect_ranking_acc": 0.45,
+      "mean_rank_correlation": 0.45,
+      "mean_pairwise_acc": 0.5166666666666666,
+      "mean_rank_distance": 0.5333333333333333,
+      "n_questions": 20,
+      "error": null
+    },
+    "15911": {
+      "feature_idx": 15911,
+      "perfect_ranking_acc": 0.05,
+      "mean_rank_correlation": 0.2116025403784439,
+      "mean_pairwise_acc": 0.4,
+      "mean_rank_distance": 0.7999999999999999,
+      "n_questions": 20,
+      "error": null
+    },
+    "9357": {
+      "feature_idx": 9357,
+      "perfect_ranking_acc": 0.35,
+      "mean_rank_correlation": 0.46160254037844395,
+      "mean_pairwise_acc": 0.65,
+      "mean_rank_distance": 0.5166666666666666,
+      "n_questions": 20,
+      "error": null
+    }
+  },
+  "feature_firing_frequencies": {
+    "2833": {
+      "firing_count": 1588,
+      "firing_percentage": 99.25,
+      "total_sequences": 1600
+    },
+    "15702": {
+      "firing_count": 1600,
+      "firing_percentage": 100.0,
+      "total_sequences": 1600
+    },
+    "1321": {
+      "firing_count": 1585,
+      "firing_percentage": 99.0625,
+      "total_sequences": 1600
+    },
+    "15256": {
+      "firing_count": 569,
+      "firing_percentage": 35.5625,
+      "total_sequences": 1600
+    },
+    "13577": {
+      "firing_count": 1590,
+      "firing_percentage": 99.375,
+      "total_sequences": 1600
+    },
+    "13876": {
+      "firing_count": 1585,
+      "firing_percentage": 99.0625,
+      "total_sequences": 1600
+    },
+    "1723": {
+      "firing_count": 1523,
+      "firing_percentage": 95.1875,
+      "total_sequences": 1600
+    },
+    "8791": {
+      "firing_count": 1562,
+      "firing_percentage": 97.625,
+      "total_sequences": 1600
+    },
+    "2616": {
+      "firing_count": 1588,
+      "firing_percentage": 99.25,
+      "total_sequences": 1600
+    },
+    "14445": {
+      "firing_count": 785,
+      "firing_percentage": 49.0625,
+      "total_sequences": 1600
+    },
+    "6462": {
+      "firing_count": 1031,
+      "firing_percentage": 64.4375,
+      "total_sequences": 1600
+    },
+    "9287": {
+      "firing_count": 918,
+      "firing_percentage": 57.375,
+      "total_sequences": 1600
+    },
+    "8688": {
+      "firing_count": 1572,
+      "firing_percentage": 98.25,
+      "total_sequences": 1600
+    },
+    "10220": {
+      "firing_count": 1536,
+      "firing_percentage": 96.0,
+      "total_sequences": 1600
+    },
+    "7457": {
+      "firing_count": 1600,
+      "firing_percentage": 100.0,
+      "total_sequences": 1600
+    },
+    "8358": {
+      "firing_count": 1525,
+      "firing_percentage": 95.3125,
+      "total_sequences": 1600
+    },
+    "10862": {
+      "firing_count": 1590,
+      "firing_percentage": 99.375,
+      "total_sequences": 1600
+    },
+    "9853": {
+      "firing_count": 1572,
+      "firing_percentage": 98.25,
+      "total_sequences": 1600
+    },
+    "7612": {
+      "firing_count": 1574,
+      "firing_percentage": 98.375,
+      "total_sequences": 1600
+    },
+    "3111": {
+      "firing_count": 1584,
+      "firing_percentage": 99.0,
+      "total_sequences": 1600
+    },
+    "9932": {
+      "firing_count": 685,
+      "firing_percentage": 42.8125,
+      "total_sequences": 1600
+    },
+    "11935": {
+      "firing_count": 457,
+      "firing_percentage": 28.5625,
+      "total_sequences": 1600
+    },
+    "6736": {
+      "firing_count": 598,
+      "firing_percentage": 37.375,
+      "total_sequences": 1600
+    },
+    "13333": {
+      "firing_count": 848,
+      "firing_percentage": 53.0,
+      "total_sequences": 1600
+    },
+    "9742": {
+      "firing_count": 468,
+      "firing_percentage": 29.25,
+      "total_sequences": 1600
+    },
+    "14503": {
+      "firing_count": 558,
+      "firing_percentage": 34.875,
+      "total_sequences": 1600
+    },
+    "806": {
+      "firing_count": 482,
+      "firing_percentage": 30.125,
+      "total_sequences": 1600
+    },
+    "16177": {
+      "firing_count": 655,
+      "firing_percentage": 40.9375,
+      "total_sequences": 1600
+    },
+    "15112": {
+      "firing_count": 165,
+      "firing_percentage": 10.3125,
+      "total_sequences": 1600
+    },
+    "10828": {
+      "firing_count": 668,
+      "firing_percentage": 41.75,
+      "total_sequences": 1600
+    },
+    "8167": {
+      "firing_count": 615,
+      "firing_percentage": 38.4375,
+      "total_sequences": 1600
+    },
+    "2674": {
+      "firing_count": 508,
+      "firing_percentage": 31.75,
+      "total_sequences": 1600
+    },
+    "5142": {
+      "firing_count": 396,
+      "firing_percentage": 24.75,
+      "total_sequences": 1600
+    },
+    "11222": {
+      "firing_count": 733,
+      "firing_percentage": 45.8125,
+      "total_sequences": 1600
+    },
+    "487": {
+      "firing_count": 546,
+      "firing_percentage": 34.125,
+      "total_sequences": 1600
+    },
+    "4961": {
+      "firing_count": 486,
+      "firing_percentage": 30.375000000000004,
+      "total_sequences": 1600
+    },
+    "7404": {
+      "firing_count": 623,
+      "firing_percentage": 38.9375,
+      "total_sequences": 1600
+    },
+    "8805": {
+      "firing_count": 509,
+      "firing_percentage": 31.8125,
+      "total_sequences": 1600
+    },
+    "11865": {
+      "firing_count": 472,
+      "firing_percentage": 29.5,
+      "total_sequences": 1600
+    },
+    "1040": {
+      "firing_count": 486,
+      "firing_percentage": 30.375000000000004,
+      "total_sequences": 1600
+    },
+    "105": {
+      "firing_count": 361,
+      "firing_percentage": 22.5625,
+      "total_sequences": 1600
+    },
+    "5835": {
+      "firing_count": 397,
+      "firing_percentage": 24.8125,
+      "total_sequences": 1600
+    },
+    "5583": {
+      "firing_count": 529,
+      "firing_percentage": 33.0625,
+      "total_sequences": 1600
+    },
+    "6650": {
+      "firing_count": 273,
+      "firing_percentage": 17.0625,
+      "total_sequences": 1600
+    },
+    "15741": {
+      "firing_count": 476,
+      "firing_percentage": 29.75,
+      "total_sequences": 1600
+    },
+    "6221": {
+      "firing_count": 357,
+      "firing_percentage": 22.3125,
+      "total_sequences": 1600
+    },
+    "12208": {
+      "firing_count": 497,
+      "firing_percentage": 31.0625,
+      "total_sequences": 1600
+    },
+    "1358": {
+      "firing_count": 419,
+      "firing_percentage": 26.187500000000004,
+      "total_sequences": 1600
+    },
+    "6246": {
+      "firing_count": 497,
+      "firing_percentage": 31.0625,
+      "total_sequences": 1600
+    },
+    "3924": {
+      "firing_count": 390,
+      "firing_percentage": 24.375,
+      "total_sequences": 1600
+    },
+    "10291": {
+      "firing_count": 442,
+      "firing_percentage": 27.625,
+      "total_sequences": 1600
+    },
+    "1239": {
+      "firing_count": 490,
+      "firing_percentage": 30.625000000000004,
+      "total_sequences": 1600
+    },
+    "13496": {
+      "firing_count": 278,
+      "firing_percentage": 17.375,
+      "total_sequences": 1600
+    },
+    "4939": {
+      "firing_count": 371,
+      "firing_percentage": 23.1875,
+      "total_sequences": 1600
+    },
+    "15077": {
+      "firing_count": 356,
+      "firing_percentage": 22.25,
+      "total_sequences": 1600
+    },
+    "3270": {
+      "firing_count": 269,
+      "firing_percentage": 16.8125,
+      "total_sequences": 1600
+    },
+    "11954": {
+      "firing_count": 329,
+      "firing_percentage": 20.5625,
+      "total_sequences": 1600
+    },
+    "16154": {
+      "firing_count": 421,
+      "firing_percentage": 26.3125,
+      "total_sequences": 1600
+    },
+    "14028": {
+      "firing_count": 445,
+      "firing_percentage": 27.8125,
+      "total_sequences": 1600
+    },
+    "13301": {
+      "firing_count": 442,
+      "firing_percentage": 27.625,
+      "total_sequences": 1600
+    },
+    "5681": {
+      "firing_count": 304,
+      "firing_percentage": 19.0,
+      "total_sequences": 1600
+    },
+    "4183": {
+      "firing_count": 237,
+      "firing_percentage": 14.8125,
+      "total_sequences": 1600
+    },
+    "15516": {
+      "firing_count": 155,
+      "firing_percentage": 9.6875,
+      "total_sequences": 1600
+    },
+    "14363": {
+      "firing_count": 264,
+      "firing_percentage": 16.5,
+      "total_sequences": 1600
+    },
+    "61": {
+      "firing_count": 313,
+      "firing_percentage": 19.5625,
+      "total_sequences": 1600
+    },
+    "13297": {
+      "firing_count": 136,
+      "firing_percentage": 8.5,
+      "total_sequences": 1600
+    },
+    "13416": {
+      "firing_count": 271,
+      "firing_percentage": 16.9375,
+      "total_sequences": 1600
+    },
+    "32": {
+      "firing_count": 298,
+      "firing_percentage": 18.625,
+      "total_sequences": 1600
+    },
+    "8022": {
+      "firing_count": 274,
+      "firing_percentage": 17.125,
+      "total_sequences": 1600
+    },
+    "6219": {
+      "firing_count": 238,
+      "firing_percentage": 14.875,
+      "total_sequences": 1600
+    },
+    "2394": {
+      "firing_count": 215,
+      "firing_percentage": 13.4375,
+      "total_sequences": 1600
+    },
+    "16194": {
+      "firing_count": 221,
+      "firing_percentage": 13.8125,
+      "total_sequences": 1600
+    },
+    "2084": {
+      "firing_count": 288,
+      "firing_percentage": 18.0,
+      "total_sequences": 1600
+    },
+    "1866": {
+      "firing_count": 167,
+      "firing_percentage": 10.4375,
+      "total_sequences": 1600
+    },
+    "11003": {
+      "firing_count": 199,
+      "firing_percentage": 12.4375,
+      "total_sequences": 1600
+    },
+    "143": {
+      "firing_count": 250,
+      "firing_percentage": 15.625,
+      "total_sequences": 1600
+    },
+    "14678": {
+      "firing_count": 304,
+      "firing_percentage": 19.0,
+      "total_sequences": 1600
+    },
+    "5668": {
+      "firing_count": 300,
+      "firing_percentage": 18.75,
+      "total_sequences": 1600
+    },
+    "15911": {
+      "firing_count": 327,
+      "firing_percentage": 20.4375,
+      "total_sequences": 1600
+    },
+    "9357": {
+      "firing_count": 208,
+      "firing_percentage": 13.0,
+      "total_sequences": 1600
+    }
+  },
+  "summary": {
+    "n_features_evaluated": 80,
+    "token_metrics": {
+      "perfect_ranking": 0.428125,
+      "correlation": 0.4837932621135332,
+      "pairwise": 0.5812499999999999,
+      "rank_distance": 0.5164583333333334
+    },
+    "sentence_metrics": {
+      "perfect_ranking": 0.41375,
+      "correlation": 0.48650560333988047,
+      "pairwise": 0.6104166666666666,
+      "rank_distance": 0.5158333333333334
+    }
+  },
+  "metadata": {
+    "combo_id": "topk_L6_16k_k100",
+    "llm_name": "opt-125m",
+    "model_name": "opt-125m",
+    "layer": 6,
+    "hook_name": "blocks.6.hook_mlp_out",
+    "n_features_per_quantile": 20,
+    "n_batches_firing_count": 50,
+    "n_batches_dominance": 10,
+    "n_batches_discovery": 50,
+    "total_sequences": 1600
+  }
+}

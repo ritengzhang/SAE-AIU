@@ -1,0 +1,20 @@
+{
+  "config": {
+    "llm": "tiny-stories",
+    "combo_id": "matryoshka_batchtopk_L0_65k_k50",
+    "architecture": "matryoshka_batchtopk",
+    "layer": 0,
+    "width": "65k",
+    "d_sae": 65536,
+    "sparsity_param": "k",
+    "sparsity_value": 50,
+    "model_name": "tiny-stories",
+    "hook_name": "blocks.0.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 1024
+  },
+  "completeness_metrics": {
+    "mse": 0.05342836391467314,
+    "n_samples": 122880
+  }
+}

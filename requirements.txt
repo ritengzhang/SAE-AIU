@@ -1,0 +1,28 @@
+# Core ML
+torch>=2.0
+transformer-lens>=2.0
+sae-lens>=4.0
+
+# Data / numerics
+numpy>=1.23
+pandas>=2.0
+scipy>=1.10
+datasets>=2.14
+huggingface-hub>=0.20
+
+# Auto-interpretability (DAME LLM judge)
+openai>=1.0
+python-dotenv>=1.0
+
+# Embedding-based redundancy validation (Appendix B.1)
+sentence-transformers>=2.2
+
+# Training pipeline (benchmark_training/)
+wandb>=0.16
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+
+# Misc
+tqdm>=4.65

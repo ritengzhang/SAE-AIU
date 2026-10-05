@@ -1,0 +1,26 @@
+{
+    "trainer": {
+        "trainer_class": "TrainerTopK",
+        "dict_class": "AutoEncoderTopK",
+        "lr": 0.0004,
+        "steps": 97656,
+        "seed": 0,
+        "activation_dim": 2304,
+        "dict_size": 4096,
+        "k": 160,
+        "device": "cuda:3",
+        "layer": 5,
+        "lm_name": "google/gemma-2-2b",
+        "wandb_name": "TopKTrainer-google/gemma-2-2b-resid_post_layer_5",
+        "submodule_name": "resid_post_layer_5"
+    },
+    "buffer": {
+        "d_submodule": 2304,
+        "io": "out",
+        "n_ctxs": 2048,
+        "ctx_len": 128,
+        "refresh_batch_size": 24,
+        "out_batch_size": 2048,
+        "device": "cuda:3"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "model_name": "gpt2-small",
+  "hook_name": "blocks.1.hook_resid_post",
+  "dataset_path": "Skylion007/openwebtext",
+  "width": "32k",
+  "hook_type": "resid_post",
+  "layer": 1,
+  "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+  "folder_name": "v5_32k_layer_1.pt"
+}

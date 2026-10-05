@@ -1,0 +1,37 @@
+{
+  "config": {
+    "repo_id": "canrager/saebench_gemma-2-2b_width-2pow16_date-0107",
+    "sae_type": "Standard_gemma-2-2b__0108",
+    "layer": "resid_post_layer_12",
+    "trainer": "trainer_5",
+    "width": "65k",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.12.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 65536,
+    "sparsity_parameter": "l1_penalty",
+    "sparsity_parameter_value": 0.06
+  },
+  "trainer_config": {
+    "dict_class": "AutoEncoder",
+    "trainer_class": "StandardTrainerAprilUpdate",
+    "activation_dim": 2304,
+    "dict_size": 65536,
+    "lr": 0.0003,
+    "l1_penalty": 0.06,
+    "warmup_steps": 1000,
+    "sparsity_warmup_steps": 5000,
+    "steps": 244140,
+    "decay_start": 195312,
+    "seed": 0,
+    "device": "cuda:2",
+    "layer": 12,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "StandardTrainerNew-google/gemma-2-2b-resid_post_layer_12_trainer_5",
+    "submodule_name": "resid_post_layer_12"
+  },
+  "completeness_metrics": {
+    "mse": 5.5236496925354,
+    "n_samples": 7680
+  }
+}

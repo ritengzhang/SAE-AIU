@@ -1,0 +1,20 @@
+{
+  "config": {
+    "llm": "tiny-stories",
+    "combo_id": "gated_L0_16k_l1_coefficient5.0",
+    "architecture": "gated",
+    "layer": 0,
+    "width": "16k",
+    "d_sae": 16384,
+    "sparsity_param": "l1_coefficient",
+    "sparsity_value": 5.0,
+    "model_name": "tiny-stories",
+    "hook_name": "blocks.0.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 1024
+  },
+  "completeness_metrics": {
+    "mse": 0.04126218448464687,
+    "n_samples": 122880
+  }
+}

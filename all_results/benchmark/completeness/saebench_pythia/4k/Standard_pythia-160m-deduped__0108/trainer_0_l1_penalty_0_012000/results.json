@@ -1,0 +1,45 @@
+{
+  "config": {
+    "repo_id": "adamkarvonen/saebench_pythia-160m-deduped_width-2pow12_date-0108",
+    "sae_type": "Standard_pythia-160m-deduped__0108",
+    "layer": "resid_post_layer_8",
+    "trainer": "trainer_0",
+    "width": "4k",
+    "model_name": "EleutherAI/pythia-160m-deduped",
+    "hook_name": "blocks.8.hook_resid_post",
+    "hook_head_index": null,
+    "d_in": 768,
+    "d_sae": 4096,
+    "sparsity_parameter": "l1_penalty",
+    "sparsity_parameter_value": 0.012
+  },
+  "trainer_config": {
+    "dict_class": "AutoEncoder",
+    "trainer_class": "StandardTrainerAprilUpdate",
+    "activation_dim": 768,
+    "dict_size": 4096,
+    "lr": 0.0003,
+    "l1_penalty": 0.012,
+    "warmup_steps": 1000,
+    "sparsity_warmup_steps": 5000,
+    "steps": 244140,
+    "decay_start": 195312,
+    "seed": 0,
+    "device": "cuda:0",
+    "layer": 8,
+    "lm_name": "EleutherAI/pythia-160m-deduped",
+    "wandb_name": "StandardTrainerNew-EleutherAI/pythia-160m-deduped-resid_post_layer_8_trainer_6",
+    "submodule_name": "resid_post_layer_8"
+  },
+  "completeness_metrics": {
+    "mse": 0.09575556963682175,
+    "n_samples": 7680,
+    "ce_loss_without_sae": null,
+    "ce_loss_with_sae": null,
+    "ce_loss_with_ablation": null,
+    "ce_loss_score": null,
+    "kl_div_with_sae": null,
+    "kl_div_with_ablation": null,
+    "kl_div_score": null
+  }
+}

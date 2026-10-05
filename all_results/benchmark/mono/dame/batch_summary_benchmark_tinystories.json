@@ -1,0 +1,958 @@
+{
+  "total_analyses": 54,
+  "completed": 52,
+  "skipped": 0,
+  "failed": 2,
+  "elapsed_seconds": 53046.021699,
+  "completed_details": [
+    {
+      "combo_id": "standard_L0_4k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 968.002749,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.650625,
+        "correlation": 0.706420258349701,
+        "pairwise": 0.7762499999999999,
+        "rank_distance": 0.29145833333333326
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5679276315789474,
+        "correlation": 0.604186569827318,
+        "pairwise": 0.7203508771929824,
+        "rank_distance": 0.38367324561403504
+      }
+    },
+    {
+      "combo_id": "standard_L0_4k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 965.561767,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.673125,
+        "correlation": 0.6962139289628746,
+        "pairwise": 0.7785416666666667,
+        "rank_distance": 0.2870833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5540789473684211,
+        "correlation": 0.5367553538620612,
+        "pairwise": 0.6860855263157895,
+        "rank_distance": 0.42210526315789476
+      }
+    },
+    {
+      "combo_id": "standard_L0_4k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 959.577489,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.68125,
+        "correlation": 0.7461406076517372,
+        "pairwise": 0.7960416666666666,
+        "rank_distance": 0.2570833333333334
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5449999999999999,
+        "correlation": 0.5565340516699402,
+        "pairwise": 0.69375,
+        "rank_distance": 0.415625
+      }
+    },
+    {
+      "combo_id": "standard_L0_16k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 990.585787,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.680625,
+        "correlation": 0.7370063972081442,
+        "pairwise": 0.7875,
+        "rank_distance": 0.2645833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5743750000000001,
+        "correlation": 0.5789338928962875,
+        "pairwise": 0.714375,
+        "rank_distance": 0.39229166666666665
+      }
+    },
+    {
+      "combo_id": "standard_L0_16k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 992.605526,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6875,
+        "correlation": 0.7133237066797609,
+        "pairwise": 0.7916666666666666,
+        "rank_distance": 0.27291666666666664
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5467434210526315,
+        "correlation": 0.5093644963188908,
+        "pairwise": 0.6774561403508772,
+        "rank_distance": 0.4357127192982456
+      }
+    },
+    {
+      "combo_id": "standard_L0_16k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 990.392832,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6925,
+        "correlation": 0.7424967782649107,
+        "pairwise": 0.8045833333333332,
+        "rank_distance": 0.25145833333333334
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.57,
+        "correlation": 0.5817179445662276,
+        "pairwise": 0.7141666666666666,
+        "rank_distance": 0.39249999999999996
+      }
+    },
+    {
+      "combo_id": "standard_L0_65k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 1131.920937,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.69625,
+        "correlation": 0.726420258349701,
+        "pairwise": 0.7914583333333333,
+        "rank_distance": 0.26208333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.49749999999999994,
+        "correlation": 0.5073489564057485,
+        "pairwise": 0.6622916666666666,
+        "rank_distance": 0.4614583333333333
+      }
+    },
+    {
+      "combo_id": "standard_L0_65k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 1123.816638,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.65875,
+        "correlation": 0.666738770189222,
+        "pairwise": 0.7579166666666666,
+        "rank_distance": 0.3085416666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.484375,
+        "correlation": 0.45847034930203606,
+        "pairwise": 0.6231249999999999,
+        "rank_distance": 0.4922916666666667
+      }
+    },
+    {
+      "combo_id": "standard_L0_65k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 1123.871976,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.726875,
+        "correlation": 0.7814979806328148,
+        "pairwise": 0.8360416666666666,
+        "rank_distance": 0.21812499999999999
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5675000000000001,
+        "correlation": 0.5948265199152096,
+        "pairwise": 0.7147916666666666,
+        "rank_distance": 0.38875000000000004
+      }
+    },
+    {
+      "combo_id": "gated_L0_4k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 959.231227,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.649375,
+        "correlation": 0.7082952583497011,
+        "pairwise": 0.775,
+        "rank_distance": 0.29124999999999995
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5628618421052632,
+        "correlation": 0.5663531306173086,
+        "pairwise": 0.6975548245614034,
+        "rank_distance": 0.40499999999999997
+      }
+    },
+    {
+      "combo_id": "gated_L0_4k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 963.529127,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.609375,
+        "correlation": 0.6530664924723357,
+        "pairwise": 0.7520833333333333,
+        "rank_distance": 0.333125
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.534375,
+        "correlation": 0.5312439881604791,
+        "pairwise": 0.6766666666666665,
+        "rank_distance": 0.434375
+      }
+    },
+    {
+      "combo_id": "gated_L0_4k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 964.540537,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.620625,
+        "correlation": 0.6460404488780844,
+        "pairwise": 0.7391666666666666,
+        "rank_distance": 0.3341666666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.4808552631578948,
+        "correlation": 0.46465905166994015,
+        "pairwise": 0.6368749999999999,
+        "rank_distance": 0.49074561403508765
+      }
+    },
+    {
+      "combo_id": "gated_L0_16k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 990.974129,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.690625,
+        "correlation": 0.7329723455382039,
+        "pairwise": 0.7999999999999999,
+        "rank_distance": 0.2633333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.6073611111111111,
+        "correlation": 0.6190348986373919,
+        "pairwise": 0.732662037037037,
+        "rank_distance": 0.3584027777777778
+      }
+    },
+    {
+      "combo_id": "gated_L0_16k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 994.128703,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6993750000000001,
+        "correlation": 0.7279947820287428,
+        "pairwise": 0.7997916666666666,
+        "rank_distance": 0.26125
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5662499999999999,
+        "correlation": 0.5707864564057485,
+        "pairwise": 0.7008333333333333,
+        "rank_distance": 0.4022916666666666
+      }
+    },
+    {
+      "combo_id": "gated_L0_16k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 987.049412,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.666875,
+        "correlation": 0.7100356394064676,
+        "pairwise": 0.7841666666666665,
+        "rank_distance": 0.27854166666666663
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5580263157894736,
+        "correlation": 0.570894186364551,
+        "pairwise": 0.7037171052631578,
+        "rank_distance": 0.4050548245614035
+      }
+    },
+    {
+      "combo_id": "gated_L0_65k_l1_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 1118.363968,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.684375,
+        "correlation": 0.7250700995760484,
+        "pairwise": 0.7945833333333333,
+        "rank_distance": 0.265625
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5897368421052631,
+        "correlation": 0.587564354258254,
+        "pairwise": 0.7217872807017545,
+        "rank_distance": 0.3805811403508772
+      }
+    },
+    {
+      "combo_id": "gated_L0_65k_l1_coefficient2.0",
+      "status": "success",
+      "elapsed_seconds": 1124.36549,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.688125,
+        "correlation": 0.73831769484024,
+        "pairwise": 0.803125,
+        "rank_distance": 0.258125
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.560625,
+        "correlation": 0.5413665834246708,
+        "pairwise": 0.6872916666666666,
+        "rank_distance": 0.4166666666666667
+      }
+    },
+    {
+      "combo_id": "gated_L0_65k_l1_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 1122.750814,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6856249999999999,
+        "correlation": 0.7330604806328149,
+        "pairwise": 0.8006249999999999,
+        "rank_distance": 0.26104166666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5349999999999999,
+        "correlation": 0.5363665834246708,
+        "pairwise": 0.6770833333333333,
+        "rank_distance": 0.4306249999999999
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_4k_l0_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 956.52224,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6287499999999999,
+        "correlation": 0.6840308299348509,
+        "pairwise": 0.756875,
+        "rank_distance": 0.308125
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5136184210526316,
+        "correlation": 0.5270543783372961,
+        "pairwise": 0.6720175438596491,
+        "rank_distance": 0.44426535087719293
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_4k_l0_coefficient3.0",
+      "status": "success",
+      "elapsed_seconds": 954.908032,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.673125,
+        "correlation": 0.7135404488780843,
+        "pairwise": 0.7897916666666667,
+        "rank_distance": 0.2745833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5473684210526316,
+        "correlation": 0.5477466650915097,
+        "pairwise": 0.6957785087719298,
+        "rank_distance": 0.41927631578947366
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_4k_l0_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 956.311976,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6381249999999999,
+        "correlation": 0.6953930123875456,
+        "pairwise": 0.7589583333333333,
+        "rank_distance": 0.3020833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.49312500000000004,
+        "correlation": 0.4971306033398804,
+        "pairwise": 0.6483333333333332,
+        "rank_distance": 0.46875
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_16k_l0_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 989.779689,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6174999999999999,
+        "correlation": 0.6720556711611982,
+        "pairwise": 0.7485416666666667,
+        "rank_distance": 0.3208333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5179605263157895,
+        "correlation": 0.5071067150036181,
+        "pairwise": 0.6588377192982454,
+        "rank_distance": 0.45537280701754385
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_16k_l0_coefficient3.0",
+      "status": "success",
+      "elapsed_seconds": 991.666319,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.609375,
+        "correlation": 0.6658445323027552,
+        "pairwise": 0.7354166666666666,
+        "rank_distance": 0.32999999999999996
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.49749999999999994,
+        "correlation": 0.49174038105676654,
+        "pairwise": 0.6539583333333333,
+        "rank_distance": 0.4683333333333334
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_16k_l0_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 991.470697,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.609375,
+        "correlation": 0.6516594370385634,
+        "pairwise": 0.7279166666666667,
+        "rank_distance": 0.3375
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5105592105263158,
+        "correlation": 0.5067583484231202,
+        "pairwise": 0.6597478070175438,
+        "rank_distance": 0.4594298245614034
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_65k_l0_coefficient1.0",
+      "status": "success",
+      "elapsed_seconds": 1116.81595,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.650625,
+        "correlation": 0.6903092782649107,
+        "pairwise": 0.7704166666666666,
+        "rank_distance": 0.29833333333333334
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5480263157894736,
+        "correlation": 0.5493316636471479,
+        "pairwise": 0.6901535087719297,
+        "rank_distance": 0.41777412280701753
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_65k_l0_coefficient3.0",
+      "status": "success",
+      "elapsed_seconds": 1117.450018,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6450000000000001,
+        "correlation": 0.7015308299348509,
+        "pairwise": 0.77125,
+        "rank_distance": 0.29166666666666663
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5037499999999999,
+        "correlation": 0.5160929445662277,
+        "pairwise": 0.668125,
+        "rank_distance": 0.4543749999999999
+      }
+    },
+    {
+      "combo_id": "jumprelu_L0_65k_l0_coefficient5.0",
+      "status": "success",
+      "elapsed_seconds": 1117.017221,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6318750000000001,
+        "correlation": 0.6848172863405996,
+        "pairwise": 0.761875,
+        "rank_distance": 0.304375
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.490625,
+        "correlation": 0.4882027222831139,
+        "pairwise": 0.6545833333333333,
+        "rank_distance": 0.47666666666666657
+      }
+    },
+    {
+      "combo_id": "topk_L0_4k_k50",
+      "status": "success",
+      "elapsed_seconds": 961.93081,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6537499999999999,
+        "correlation": 0.7168657664253899,
+        "pairwise": 0.7741666666666666,
+        "rank_distance": 0.28208333333333335
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.530921052631579,
+        "correlation": 0.5106235193497637,
+        "pairwise": 0.6667105263157894,
+        "rank_distance": 0.44441885964912287
+      }
+    },
+    {
+      "combo_id": "topk_L0_4k_k100",
+      "status": "success",
+      "elapsed_seconds": 959.876288,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.65125,
+        "correlation": 0.698060480632815,
+        "pairwise": 0.7683333333333333,
+        "rank_distance": 0.2947916666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5475,
+        "correlation": 0.5392852540378443,
+        "pairwise": 0.6872916666666666,
+        "rank_distance": 0.42374999999999996
+      }
+    },
+    {
+      "combo_id": "topk_L0_4k_k200",
+      "status": "success",
+      "elapsed_seconds": 961.577409,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.640625,
+        "correlation": 0.681107758349701,
+        "pairwise": 0.7602083333333333,
+        "rank_distance": 0.30895833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5660855263157895,
+        "correlation": 0.5665968465825655,
+        "pairwise": 0.7045285087719299,
+        "rank_distance": 0.400734649122807
+      }
+    },
+    {
+      "combo_id": "topk_L0_16k_k50",
+      "status": "success",
+      "elapsed_seconds": 988.567387,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.695,
+        "correlation": 0.7403601630855094,
+        "pairwise": 0.8045833333333332,
+        "rank_distance": 0.2552083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.551875,
+        "correlation": 0.5664951905283834,
+        "pairwise": 0.6977083333333333,
+        "rank_distance": 0.4095833333333333
+      }
+    },
+    {
+      "combo_id": "topk_L0_16k_k100",
+      "status": "success",
+      "elapsed_seconds": 993.621027,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.693125,
+        "correlation": 0.7237423772929346,
+        "pairwise": 0.7941666666666667,
+        "rank_distance": 0.2660416666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5643750000000001,
+        "correlation": 0.5389727540378444,
+        "pairwise": 0.694375,
+        "rank_distance": 0.4145833333333334
+      }
+    },
+    {
+      "combo_id": "topk_L0_16k_k200",
+      "status": "success",
+      "elapsed_seconds": 991.127405,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.666875,
+        "correlation": 0.720225544142276,
+        "pairwise": 0.7816666666666666,
+        "rank_distance": 0.27645833333333336
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.552203947368421,
+        "correlation": 0.512372890176817,
+        "pairwise": 0.6783114035087718,
+        "rank_distance": 0.43366228070175444
+      }
+    },
+    {
+      "combo_id": "topk_L0_65k_k50",
+      "status": "success",
+      "elapsed_seconds": 1118.404365,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6943750000000001,
+        "correlation": 0.7584955758970066,
+        "pairwise": 0.8058333333333334,
+        "rank_distance": 0.2441666666666667
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5549013157894738,
+        "correlation": 0.5536661977251562,
+        "pairwise": 0.6943421052631578,
+        "rank_distance": 0.4119407894736842
+      }
+    },
+    {
+      "combo_id": "topk_L0_65k_k100",
+      "status": "success",
+      "elapsed_seconds": 1119.296732,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.670625,
+        "correlation": 0.7303541512459886,
+        "pairwise": 0.7933333333333333,
+        "rank_distance": 0.27020833333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5581250000000001,
+        "correlation": 0.5314727540378443,
+        "pairwise": 0.6835416666666666,
+        "rank_distance": 0.4241666666666667
+      }
+    },
+    {
+      "combo_id": "topk_L0_65k_k200",
+      "status": "success",
+      "elapsed_seconds": 1117.251519,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.681875,
+        "correlation": 0.7467431711611983,
+        "pairwise": 0.8035416666666666,
+        "rank_distance": 0.25416666666666665
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5854934210526317,
+        "correlation": 0.5830920598283518,
+        "pairwise": 0.7103728070175438,
+        "rank_distance": 0.38550438596491227
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_4k_k50",
+      "status": "success",
+      "elapsed_seconds": 953.853104,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.69375,
+        "correlation": 0.7641818735291024,
+        "pairwise": 0.8056249999999998,
+        "rank_distance": 0.24270833333333336
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.61,
+        "correlation": 0.6212439881604792,
+        "pairwise": 0.7364583333333332,
+        "rank_distance": 0.3572916666666666
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_4k_k100",
+      "status": "success",
+      "elapsed_seconds": 958.890885,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.70375,
+        "correlation": 0.7530664924723357,
+        "pairwise": 0.8099999999999999,
+        "rank_distance": 0.24375
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5804934210526316,
+        "correlation": 0.5890190788646457,
+        "pairwise": 0.7136732456140351,
+        "rank_distance": 0.3849122807017543
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_4k_k200",
+      "status": "success",
+      "elapsed_seconds": 958.039145,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.669375,
+        "correlation": 0.7436854806328149,
+        "pairwise": 0.7939583333333332,
+        "rank_distance": 0.264375
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5575328947368421,
+        "correlation": 0.5691790834246707,
+        "pairwise": 0.7097368421052631,
+        "rank_distance": 0.40328947368421053
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_16k_k50",
+      "status": "success",
+      "elapsed_seconds": 984.55014,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7081250000000001,
+        "correlation": 0.7561301948402399,
+        "pairwise": 0.8133333333333332,
+        "rank_distance": 0.2402083333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5925,
+        "correlation": 0.5913441469341318,
+        "pairwise": 0.7197916666666665,
+        "rank_distance": 0.37895833333333334
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_16k_k100",
+      "status": "success",
+      "elapsed_seconds": 990.646918,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7125,
+        "correlation": 0.7530889289628747,
+        "pairwise": 0.809375,
+        "rank_distance": 0.24187499999999998
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.561875,
+        "correlation": 0.5701330080756888,
+        "pairwise": 0.7039583333333332,
+        "rank_distance": 0.40145833333333325
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_16k_k200",
+      "status": "success",
+      "elapsed_seconds": 991.114789,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.686875,
+        "correlation": 0.763997980632815,
+        "pairwise": 0.8127083333333334,
+        "rank_distance": 0.24479166666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5578947368421053,
+        "correlation": 0.5744183075483392,
+        "pairwise": 0.7079605263157894,
+        "rank_distance": 0.4014802631578947
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_65k_k50",
+      "status": "success",
+      "elapsed_seconds": 1121.417119,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7275,
+        "correlation": 0.8038080758970066,
+        "pairwise": 0.846875,
+        "rank_distance": 0.2058333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.568125,
+        "correlation": 0.5920977540378444,
+        "pairwise": 0.7179166666666668,
+        "rank_distance": 0.3875
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_65k_k100",
+      "status": "success",
+      "elapsed_seconds": 1122.327246,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6925000000000001,
+        "correlation": 0.7564815559817969,
+        "pairwise": 0.8091666666666665,
+        "rank_distance": 0.24854166666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5517763157894737,
+        "correlation": 0.5550732304415253,
+        "pairwise": 0.6926535087719298,
+        "rank_distance": 0.41486842105263155
+      }
+    },
+    {
+      "combo_id": "batchtopk_L0_65k_k200",
+      "status": "success",
+      "elapsed_seconds": 1119.225617,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.7106250000000001,
+        "correlation": 0.7796065559817968,
+        "pairwise": 0.8237500000000001,
+        "rank_distance": 0.22749999999999998
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5774013157894737,
+        "correlation": 0.5851509754420423,
+        "pairwise": 0.7112171052631578,
+        "rank_distance": 0.38819078947368413
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_4k_k50",
+      "status": "success",
+      "elapsed_seconds": 957.166182,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.663125,
+        "correlation": 0.7421273816047912,
+        "pairwise": 0.7914583333333333,
+        "rank_distance": 0.2616666666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5592434210526316,
+        "correlation": 0.5705920598283518,
+        "pairwise": 0.7128728070175437,
+        "rank_distance": 0.4032127192982456
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_4k_k100",
+      "status": "success",
+      "elapsed_seconds": 963.890333,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.6806249999999999,
+        "correlation": 0.7451866830007191,
+        "pairwise": 0.798125,
+        "rank_distance": 0.25916666666666666
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5756249999999999,
+        "correlation": 0.5770977540378444,
+        "pairwise": 0.7085416666666665,
+        "rank_distance": 0.39208333333333334
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_4k_k200",
+      "status": "success",
+      "elapsed_seconds": 959.974563,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.675,
+        "correlation": 0.7434791512459885,
+        "pairwise": 0.8012499999999999,
+        "rank_distance": 0.260625
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.57125,
+        "correlation": 0.6082640199152096,
+        "pairwise": 0.7252083333333333,
+        "rank_distance": 0.37958333333333333
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_16k_k50",
+      "status": "success",
+      "elapsed_seconds": 994.353482,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.661875,
+        "correlation": 0.7316818735291023,
+        "pairwise": 0.7995833333333333,
+        "rank_distance": 0.2683333333333333
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5342105263157894,
+        "correlation": 0.5300567830731044,
+        "pairwise": 0.6866118421052632,
+        "rank_distance": 0.433234649122807
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_16k_k100",
+      "status": "success",
+      "elapsed_seconds": 990.469459,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.686875,
+        "correlation": 0.7441654488780843,
+        "pairwise": 0.7995833333333333,
+        "rank_distance": 0.25479166666666664
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5900000000000001,
+        "correlation": 0.5931414246510182,
+        "pairwise": 0.7204166666666667,
+        "rank_distance": 0.3804166666666666
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_16k_k200",
+      "status": "success",
+      "elapsed_seconds": 982.931962,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.68375,
+        "correlation": 0.733701905283833,
+        "pairwise": 0.7958333333333333,
+        "rank_distance": 0.25999999999999995
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5824671052631579,
+        "correlation": 0.6097651995657107,
+        "pairwise": 0.7370723684210526,
+        "rank_distance": 0.3706469298245614
+      }
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_65k_k50",
+      "status": "success",
+      "elapsed_seconds": 1118.34001,
+      "n_features_evaluated": 80,
+      "token_metrics": {
+        "perfect_ranking": 0.696875,
+        "correlation": 0.7631666512459885,
+        "pairwise": 0.8127083333333334,
+        "rank_distance": 0.24125000000000002
+      },
+      "sentence_metrics": {
+        "perfect_ranking": 0.5625,
+        "correlation": 0.5819691469341318,
+        "pairwise": 0.710625,
+        "rank_distance": 0.3958333333333333
+      }
+    }
+  ],
+  "failed_details": [
+    {
+      "combo_id": "matryoshka_batchtopk_L0_65k_k100",
+      "status": "failed",
+      "error": "SAE checkpoint directory not found: /data/user/sae/training/tiny-stories/checkpoints/matryoshka_batchtopk_L0_65k_k100"
+    },
+    {
+      "combo_id": "matryoshka_batchtopk_L0_65k_k200",
+      "status": "failed",
+      "error": "SAE checkpoint directory not found: /data/user/sae/training/tiny-stories/checkpoints/matryoshka_batchtopk_L0_65k_k200"
+    }
+  ],
+  "skipped_details": []
+}

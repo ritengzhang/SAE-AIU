@@ -1,0 +1,20 @@
+{
+  "config": {
+    "llm": "tiny-stories",
+    "combo_id": "jumprelu_L0_65k_l0_coefficient5.0",
+    "architecture": "jumprelu",
+    "layer": 0,
+    "width": "65k",
+    "d_sae": 65536,
+    "sparsity_param": "l0_coefficient",
+    "sparsity_value": 5.0,
+    "model_name": "tiny-stories",
+    "hook_name": "blocks.0.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 1024
+  },
+  "completeness_metrics": {
+    "mse": 0.05029930747472323,
+    "n_samples": 122880
+  }
+}

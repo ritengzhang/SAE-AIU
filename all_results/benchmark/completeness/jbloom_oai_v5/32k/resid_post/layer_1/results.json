@@ -1,0 +1,16 @@
+{
+  "config": {
+    "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-resid-post-SAEs",
+    "width": "32k",
+    "hook_type": "resid_post",
+    "layer": 1,
+    "model_name": "gpt2-small",
+    "hook_name": "blocks.1.hook_resid_post",
+    "d_in": 768,
+    "d_sae": 32768
+  },
+  "completeness_metrics": {
+    "mse": 1.2933714389801025,
+    "n_samples": 7680
+  }
+}

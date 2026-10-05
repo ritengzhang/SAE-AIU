@@ -1,0 +1,10 @@
+{
+  "model_name": "gpt2-small",
+  "hook_name": "blocks.6.hook_resid_mid",
+  "dataset_path": "Skylion007/openwebtext",
+  "width": "128k",
+  "hook_type": "resid_mid",
+  "layer": 6,
+  "repo_id": "jbloom/GPT2-Small-OAI-v5-128k-resid-mid-SAEs",
+  "folder_name": "v5_128k_layer_6"
+}

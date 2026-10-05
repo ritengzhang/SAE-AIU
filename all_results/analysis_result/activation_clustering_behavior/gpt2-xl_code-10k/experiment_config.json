@@ -1,0 +1,6 @@
+{
+  "model": "gpt2-xl",
+  "dataset": "NeelNanda/code-10k",
+  "num_batches": 150,
+  "batch_size": 4
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt2-small",
+  "hook_name": "blocks.4.hook_mlp_out",
+  "dataset_path": "Skylion007/openwebtext",
+  "width": "32k",
+  "hook_type": "mlp_out",
+  "layer": 4,
+  "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+  "folder_name": "v5_32k_layer_4.pt",
+  "_cache_repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+  "_cache_folder_name": "v5_32k_layer_4.pt"
+}

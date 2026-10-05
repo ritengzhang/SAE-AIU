@@ -1,0 +1,1587 @@
+{
+  "config": {
+    "combo_id": "gated_L6_16k_l1_coefficient1.0",
+    "architecture": "gated",
+    "width": "16k",
+    "sparsity_param": "l1_coefficient",
+    "sparsity_value": 1.0
+  },
+  "quantile_results": {
+    "1": {
+      "n_features": 3000,
+      "redundant_pairs": {
+        "0.7": 131,
+        "0.9": 14
+      },
+      "avg_encoder_pairwise_similarity": 0.03490149602293968
+    },
+    "2": {
+      "n_features": 3000,
+      "redundant_pairs": {
+        "0.7": 5,
+        "0.9": 0
+      },
+      "avg_encoder_pairwise_similarity": 0.022577805444598198
+    },
+    "3": {
+      "n_features": 3000,
+      "redundant_pairs": {
+        "0.7": 2,
+        "0.9": 0
+      },
+      "avg_encoder_pairwise_similarity": 0.012736759148538113
+    },
+    "4": {
+      "n_features": 3000,
+      "redundant_pairs": {
+        "0.7": 4,
+        "0.9": 0
+      },
+      "avg_encoder_pairwise_similarity": 0.007362054660916328
+    }
+  },
+  "redundant_vs_nonredundant_comparison_by_quantile": {
+    "0.7": {
+      "1": {
+        "n_redundant_pairs": 131,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 14393,
+            "decoder_similarity": 0.9013775587081909,
+            "encoder_similarity": 0.5681352615356445,
+            "encoder_difference": 0.43186473846435547,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 11195,
+            "decoder_similarity": 0.9276378154754639,
+            "encoder_similarity": 0.5776066780090332,
+            "encoder_difference": 0.4223933219909668,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 8707,
+            "decoder_similarity": 0.8341055512428284,
+            "encoder_similarity": 0.4133469760417938,
+            "encoder_difference": 0.5866530239582062,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 500,
+            "decoder_similarity": 0.7905528545379639,
+            "encoder_similarity": 0.41422343254089355,
+            "encoder_difference": 0.5857765674591064,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.904952347278595,
+            "encoder_similarity": 0.42245593667030334,
+            "encoder_difference": 0.5775440633296967,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 12094,
+            "decoder_similarity": 0.7397772073745728,
+            "encoder_similarity": 0.4401164650917053,
+            "encoder_difference": 0.5598835349082947,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.8944666385650635,
+            "encoder_similarity": 0.43013787269592285,
+            "encoder_difference": 0.5698621273040771,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.79784095287323,
+            "encoder_similarity": 0.2217114269733429,
+            "encoder_difference": 0.7782885730266571,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.7358526587486267,
+            "encoder_similarity": -0.004762241616845131,
+            "encoder_difference": 1.0047622416168451,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 11195,
+            "decoder_similarity": 0.9369233250617981,
+            "encoder_similarity": 0.6236474514007568,
+            "encoder_difference": 0.37635254859924316,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 8707,
+            "decoder_similarity": 0.7616029381752014,
+            "encoder_similarity": 0.32642698287963867,
+            "encoder_difference": 0.6735730171203613,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 500,
+            "decoder_similarity": 0.8841891288757324,
+            "encoder_similarity": 0.589282751083374,
+            "encoder_difference": 0.410717248916626,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.8781548738479614,
+            "encoder_similarity": 0.428891122341156,
+            "encoder_difference": 0.571108877658844,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 12094,
+            "decoder_similarity": 0.8487744927406311,
+            "encoder_similarity": 0.576054036617279,
+            "encoder_difference": 0.42394596338272095,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.8609654903411865,
+            "encoder_similarity": 0.36355897784233093,
+            "encoder_difference": 0.6364410221576691,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.8117075562477112,
+            "encoder_similarity": 0.2585345506668091,
+            "encoder_difference": 0.7414654493331909,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 7042,
+            "decoder_similarity": 0.8474672436714172,
+            "encoder_similarity": 0.45896509289741516,
+            "encoder_difference": 0.5410349071025848,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 11781,
+            "decoder_similarity": 0.7396994233131409,
+            "encoder_similarity": 0.41463637351989746,
+            "encoder_difference": 0.5853636264801025,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.7220085859298706,
+            "encoder_similarity": 0.05119776725769043,
+            "encoder_difference": 0.9488022327423096,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 8707,
+            "decoder_similarity": 0.8634015321731567,
+            "encoder_similarity": 0.4622785449028015,
+            "encoder_difference": 0.5377214550971985,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 500,
+            "decoder_similarity": 0.8598748445510864,
+            "encoder_similarity": 0.5455577373504639,
+            "encoder_difference": 0.45444226264953613,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.9617848992347717,
+            "encoder_similarity": 0.6347981095314026,
+            "encoder_difference": 0.3652018904685974,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 12094,
+            "decoder_similarity": 0.782227098941803,
+            "encoder_similarity": 0.47235071659088135,
+            "encoder_difference": 0.5276492834091187,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.9386416673660278,
+            "encoder_similarity": 0.4781678020954132,
+            "encoder_difference": 0.5218321979045868,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.8630903959274292,
+            "encoder_similarity": 0.3361760675907135,
+            "encoder_difference": 0.6638239324092865,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 7042,
+            "decoder_similarity": 0.7521302103996277,
+            "encoder_similarity": 0.3012320101261139,
+            "encoder_difference": 0.6987679898738861,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.8376188278198242,
+            "encoder_similarity": 0.20267701148986816,
+            "encoder_difference": 0.7973229885101318,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 500,
+            "decoder_similarity": 0.7123072743415833,
+            "encoder_similarity": 0.3410801291465759,
+            "encoder_difference": 0.6589198708534241,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.9274177551269531,
+            "encoder_similarity": 0.6287121772766113,
+            "encoder_difference": 0.37128782272338867,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.8509821891784668,
+            "encoder_similarity": 0.36580777168273926,
+            "encoder_difference": 0.6341922283172607,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 4889,
+            "decoder_similarity": 0.7581059336662292,
+            "encoder_similarity": 0.28516048192977905,
+            "encoder_difference": 0.714839518070221,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.8760629296302795,
+            "encoder_similarity": 0.42420241236686707,
+            "encoder_difference": 0.5757975876331329,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 500,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.7942684888839722,
+            "encoder_similarity": 0.36866843700408936,
+            "encoder_difference": 0.6313315629959106,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 500,
+            "feature_id_2": 12094,
+            "decoder_similarity": 0.8473755717277527,
+            "encoder_similarity": 0.5437068939208984,
+            "encoder_difference": 0.45629310607910156,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 500,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.7131854891777039,
+            "encoder_similarity": 0.14608430862426758,
+            "encoder_difference": 0.8539156913757324,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 500,
+            "feature_id_2": 7042,
+            "decoder_similarity": 0.8070856928825378,
+            "encoder_similarity": 0.36998802423477173,
+            "encoder_difference": 0.6300119757652283,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 500,
+            "feature_id_2": 11781,
+            "decoder_similarity": 0.7196863889694214,
+            "encoder_similarity": 0.41071856021881104,
+            "encoder_difference": 0.589281439781189,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5009,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.9260568618774414,
+            "encoder_similarity": 0.3849171996116638,
+            "encoder_difference": 0.6150828003883362,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5009,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.8125391602516174,
+            "encoder_similarity": 0.1426524817943573,
+            "encoder_difference": 0.8573475182056427,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5009,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.8933753371238708,
+            "encoder_similarity": 0.49430572986602783,
+            "encoder_difference": 0.5056942701339722,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 12094,
+            "feature_id_2": 7042,
+            "decoder_similarity": 0.810823917388916,
+            "encoder_similarity": 0.38210588693618774,
+            "encoder_difference": 0.6178941130638123,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 12094,
+            "feature_id_2": 11781,
+            "decoder_similarity": 0.7300432324409485,
+            "encoder_similarity": 0.42293816804885864,
+            "encoder_difference": 0.5770618319511414,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11172,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.9004842042922974,
+            "encoder_similarity": 0.5031179189682007,
+            "encoder_difference": 0.4968820810317993,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11172,
+            "feature_id_2": 11565,
+            "decoder_similarity": 0.8032886981964111,
+            "encoder_similarity": 0.15918311476707458,
+            "encoder_difference": 0.8408168852329254,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2616,
+            "feature_id_2": 7135,
+            "decoder_similarity": 0.7057901620864868,
+            "encoder_similarity": 0.541193962097168,
+            "encoder_difference": 0.45880603790283203,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2616,
+            "feature_id_2": 7922,
+            "decoder_similarity": 0.7082962989807129,
+            "encoder_similarity": 0.4609771966934204,
+            "encoder_difference": 0.5390228033065796,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7042,
+            "feature_id_2": 11781,
+            "decoder_similarity": 0.7457064986228943,
+            "encoder_similarity": 0.31382864713668823,
+            "encoder_difference": 0.6861713528633118,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 10175,
+            "decoder_similarity": 0.7333046793937683,
+            "encoder_similarity": 0.2375386655330658,
+            "encoder_difference": 0.7624613344669342,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 14036,
+            "decoder_similarity": 0.8449459075927734,
+            "encoder_similarity": 0.5829625129699707,
+            "encoder_difference": 0.4170374870300293,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 9293,
+            "decoder_similarity": 0.9104043245315552,
+            "encoder_similarity": 0.5897859334945679,
+            "encoder_difference": 0.41021406650543213,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 5245,
+            "decoder_similarity": 0.7383029460906982,
+            "encoder_similarity": 0.5089046955108643,
+            "encoder_difference": 0.49109530448913574,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 7588,
+            "decoder_similarity": 0.755354106426239,
+            "encoder_similarity": 0.31630903482437134,
+            "encoder_difference": 0.6836909651756287,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 10175,
+            "feature_id_2": 9293,
+            "decoder_similarity": 0.853944718837738,
+            "encoder_similarity": 0.4989928603172302,
+            "encoder_difference": 0.5010071396827698,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 10175,
+            "feature_id_2": 4301,
+            "decoder_similarity": 0.7642073631286621,
+            "encoder_similarity": 0.52290278673172,
+            "encoder_difference": 0.47709721326828003,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 10175,
+            "feature_id_2": 7588,
+            "decoder_similarity": 0.7437509298324585,
+            "encoder_similarity": 0.1943218857049942,
+            "encoder_difference": 0.8056781142950058,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14036,
+            "feature_id_2": 9293,
+            "decoder_similarity": 0.8066540360450745,
+            "encoder_similarity": 0.4612079858779907,
+            "encoder_difference": 0.5387920141220093,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14036,
+            "feature_id_2": 5245,
+            "decoder_similarity": 0.8465800285339355,
+            "encoder_similarity": 0.6328281164169312,
+            "encoder_difference": 0.36717188358306885,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14036,
+            "feature_id_2": 4734,
+            "decoder_similarity": 0.7281901240348816,
+            "encoder_similarity": 0.3990245461463928,
+            "encoder_difference": 0.6009754538536072,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 9293,
+            "feature_id_2": 7588,
+            "decoder_similarity": 0.7690780162811279,
+            "encoder_similarity": 0.21765384078025818,
+            "encoder_difference": 0.7823461592197418,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5245,
+            "feature_id_2": 4734,
+            "decoder_similarity": 0.7570708394050598,
+            "encoder_similarity": 0.41724586486816406,
+            "encoder_difference": 0.5827541351318359,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 2331,
+            "decoder_similarity": 0.9252724647521973,
+            "encoder_similarity": 0.7420002222061157,
+            "encoder_difference": 0.2579997777938843,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 4031,
+            "decoder_similarity": 0.8955376744270325,
+            "encoder_similarity": 0.7029390335083008,
+            "encoder_difference": 0.2970609664916992,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 2171,
+            "decoder_similarity": 0.8575079441070557,
+            "encoder_similarity": 0.176510751247406,
+            "encoder_difference": 0.823489248752594,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.8843234777450562,
+            "encoder_similarity": 0.021626729518175125,
+            "encoder_difference": 0.9783732704818249,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.8906122446060181,
+            "encoder_similarity": 0.035032570362091064,
+            "encoder_difference": 0.9649674296379089,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1763,
+            "feature_id_2": 13587,
+            "decoder_similarity": 0.8901815414428711,
+            "encoder_similarity": 0.7190577983856201,
+            "encoder_difference": 0.2809422016143799,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1763,
+            "feature_id_2": 1633,
+            "decoder_similarity": 0.7219060659408569,
+            "encoder_similarity": 0.39880144596099854,
+            "encoder_difference": 0.6011985540390015,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 9331,
+            "feature_id_2": 7481,
+            "decoder_similarity": 0.8317868709564209,
+            "encoder_similarity": 0.5290652513504028,
+            "encoder_difference": 0.47093474864959717,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 9331,
+            "feature_id_2": 6324,
+            "decoder_similarity": 0.8932174444198608,
+            "encoder_similarity": 0.38479697704315186,
+            "encoder_difference": 0.6152030229568481,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 3352,
+            "feature_id_2": 4756,
+            "decoder_similarity": 0.7543196082115173,
+            "encoder_similarity": 0.4697969853878021,
+            "encoder_difference": 0.5302030146121979,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 3352,
+            "feature_id_2": 10780,
+            "decoder_similarity": 0.7424839735031128,
+            "encoder_similarity": 0.3624313473701477,
+            "encoder_difference": 0.6375686526298523,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13244,
+            "feature_id_2": 1673,
+            "decoder_similarity": 0.708977460861206,
+            "encoder_similarity": 0.5428649187088013,
+            "encoder_difference": 0.45713508129119873,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13244,
+            "feature_id_2": 7939,
+            "decoder_similarity": 0.7994678020477295,
+            "encoder_similarity": 0.5570462942123413,
+            "encoder_difference": 0.4429537057876587,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13244,
+            "feature_id_2": 10898,
+            "decoder_similarity": 0.7188356518745422,
+            "encoder_similarity": 0.45054876804351807,
+            "encoder_difference": 0.5494512319564819,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 6103,
+            "decoder_similarity": 0.8097895383834839,
+            "encoder_similarity": 0.6306901574134827,
+            "encoder_difference": 0.36930984258651733,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 4031,
+            "decoder_similarity": 0.7920981645584106,
+            "encoder_similarity": 0.4461762309074402,
+            "encoder_difference": 0.5538237690925598,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 2171,
+            "decoder_similarity": 0.7653802633285522,
+            "encoder_similarity": -0.0630551278591156,
+            "encoder_difference": 1.0630551278591156,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.7963352203369141,
+            "encoder_similarity": -0.1725357323884964,
+            "encoder_difference": 1.1725357323884964,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 5832,
+            "decoder_similarity": 0.8424822688102722,
+            "encoder_similarity": -0.028725627809762955,
+            "encoder_difference": 1.028725627809763,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2331,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.8531920909881592,
+            "encoder_similarity": -0.08289918303489685,
+            "encoder_difference": 1.0828991830348969,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4756,
+            "feature_id_2": 10780,
+            "decoder_similarity": 0.8978843688964844,
+            "encoder_similarity": 0.5491006374359131,
+            "encoder_difference": 0.4508993625640869,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4756,
+            "feature_id_2": 4977,
+            "decoder_similarity": 0.7006644010543823,
+            "encoder_similarity": 0.2525237500667572,
+            "encoder_difference": 0.7474762499332428,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 6103,
+            "feature_id_2": 5832,
+            "decoder_similarity": 0.8383215665817261,
+            "encoder_similarity": 0.006963884457945824,
+            "encoder_difference": 0.9930361155420542,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 6103,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.7337177991867065,
+            "encoder_similarity": -0.04992835968732834,
+            "encoder_difference": 1.0499283596873283,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1673,
+            "feature_id_2": 10898,
+            "decoder_similarity": 0.7221931219100952,
+            "encoder_similarity": 0.5112748742103577,
+            "encoder_difference": 0.48872512578964233,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7135,
+            "feature_id_2": 7922,
+            "decoder_similarity": 0.795721173286438,
+            "encoder_similarity": 0.5983144044876099,
+            "encoder_difference": 0.40168559551239014,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7135,
+            "feature_id_2": 10320,
+            "decoder_similarity": 0.7753598690032959,
+            "encoder_similarity": 0.5736379027366638,
+            "encoder_difference": 0.4263620972633362,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7135,
+            "feature_id_2": 1386,
+            "decoder_similarity": 0.8297667503356934,
+            "encoder_similarity": 0.5430553555488586,
+            "encoder_difference": 0.45694464445114136,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7939,
+            "feature_id_2": 10898,
+            "decoder_similarity": 0.7027391791343689,
+            "encoder_similarity": 0.4866710901260376,
+            "encoder_difference": 0.5133289098739624,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 15792,
+            "decoder_similarity": 0.7204333543777466,
+            "encoder_similarity": 0.43197330832481384,
+            "encoder_difference": 0.5680266916751862,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 2171,
+            "decoder_similarity": 0.9251147508621216,
+            "encoder_similarity": 0.19377142190933228,
+            "encoder_difference": 0.8062285780906677,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.9202973246574402,
+            "encoder_similarity": -0.03877873346209526,
+            "encoder_difference": 1.0387787334620953,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.7696671485900879,
+            "encoder_similarity": -0.15749411284923553,
+            "encoder_difference": 1.1574941128492355,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 12815,
+            "feature_id_2": 12449,
+            "decoder_similarity": 0.7213499546051025,
+            "encoder_similarity": 0.7581694722175598,
+            "encoder_difference": 0.24183052778244019,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7481,
+            "feature_id_2": 6324,
+            "decoder_similarity": 0.8389030694961548,
+            "encoder_similarity": 0.3230553865432739,
+            "encoder_difference": 0.6769446134567261,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7922,
+            "feature_id_2": 10320,
+            "decoder_similarity": 0.7772929668426514,
+            "encoder_similarity": 0.5188543796539307,
+            "encoder_difference": 0.48114562034606934,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7922,
+            "feature_id_2": 1386,
+            "decoder_similarity": 0.7996922731399536,
+            "encoder_similarity": 0.3148622512817383,
+            "encoder_difference": 0.6851377487182617,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4939,
+            "feature_id_2": 15576,
+            "decoder_similarity": 0.7511160373687744,
+            "encoder_similarity": 0.6351302266120911,
+            "encoder_difference": 0.36486977338790894,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4939,
+            "feature_id_2": 10983,
+            "decoder_similarity": 0.7870290279388428,
+            "encoder_similarity": 0.4918520450592041,
+            "encoder_difference": 0.5081479549407959,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 15576,
+            "feature_id_2": 10983,
+            "decoder_similarity": 0.7500165700912476,
+            "encoder_similarity": 0.4439481496810913,
+            "encoder_difference": 0.5560518503189087,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7898,
+            "feature_id_2": 3127,
+            "decoder_similarity": 0.7895165681838989,
+            "encoder_similarity": 0.6002247929573059,
+            "encoder_difference": 0.3997752070426941,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 287,
+            "feature_id_2": 6386,
+            "decoder_similarity": 0.7800202965736389,
+            "encoder_similarity": 0.4958930015563965,
+            "encoder_difference": 0.5041069984436035,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 7846,
+            "feature_id_2": 8749,
+            "decoder_similarity": 0.7297148704528809,
+            "encoder_similarity": 0.6335692405700684,
+            "encoder_difference": 0.36643075942993164,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8727,
+            "feature_id_2": 6943,
+            "decoder_similarity": 0.7270840406417847,
+            "encoder_similarity": 0.5777249336242676,
+            "encoder_difference": 0.4222750663757324,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 15792,
+            "feature_id_2": 2171,
+            "decoder_similarity": 0.8058408498764038,
+            "encoder_similarity": 0.25474968552589417,
+            "encoder_difference": 0.7452503144741058,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 15792,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.747170090675354,
+            "encoder_similarity": 0.04144221171736717,
+            "encoder_difference": 0.9585577882826328,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14608,
+            "feature_id_2": 7703,
+            "decoder_similarity": 0.71619713306427,
+            "encoder_similarity": 0.3652777671813965,
+            "encoder_difference": 0.6347222328186035,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 10780,
+            "feature_id_2": 4977,
+            "decoder_similarity": 0.7177478671073914,
+            "encoder_similarity": 0.2724384367465973,
+            "encoder_difference": 0.7275615632534027,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8064,
+            "feature_id_2": 15352,
+            "decoder_similarity": 0.7131561040878296,
+            "encoder_similarity": 0.5207740068435669,
+            "encoder_difference": 0.4792259931564331,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 9086,
+            "feature_id_2": 542,
+            "decoder_similarity": 0.7339993119239807,
+            "encoder_similarity": 0.5624127388000488,
+            "encoder_difference": 0.43758726119995117,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 15273,
+            "feature_id_2": 10089,
+            "decoder_similarity": 0.7067124843597412,
+            "encoder_similarity": 0.4732082486152649,
+            "encoder_difference": 0.5267917513847351,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 15542,
+            "feature_id_2": 265,
+            "decoder_similarity": 0.7057449817657471,
+            "encoder_similarity": 0.5054888725280762,
+            "encoder_difference": 0.49451112747192383,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13019,
+            "feature_id_2": 7703,
+            "decoder_similarity": 0.7031939625740051,
+            "encoder_similarity": 0.3578478693962097,
+            "encoder_difference": 0.6421521306037903,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11627,
+            "feature_id_2": 2420,
+            "decoder_similarity": 0.7742577791213989,
+            "encoder_similarity": 0.6368144154548645,
+            "encoder_difference": 0.3631855845451355,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5089,
+            "feature_id_2": 10089,
+            "decoder_similarity": 0.7333270311355591,
+            "encoder_similarity": 0.5281029343605042,
+            "encoder_difference": 0.47189706563949585,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8511,
+            "feature_id_2": 10675,
+            "decoder_similarity": 0.7592276334762573,
+            "encoder_similarity": 0.5113539099693298,
+            "encoder_difference": 0.48864609003067017,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4887,
+            "feature_id_2": 5872,
+            "decoder_similarity": 0.7542542219161987,
+            "encoder_similarity": 0.5908877849578857,
+            "encoder_difference": 0.40911221504211426,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 10320,
+            "feature_id_2": 1386,
+            "decoder_similarity": 0.8515351414680481,
+            "encoder_similarity": 0.6216439008712769,
+            "encoder_difference": 0.37835609912872314,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4419,
+            "feature_id_2": 14489,
+            "decoder_similarity": 0.71219402551651,
+            "encoder_similarity": 0.5949386358261108,
+            "encoder_difference": 0.40506136417388916,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1554,
+            "feature_id_2": 3125,
+            "decoder_similarity": 0.7830985188484192,
+            "encoder_similarity": 0.6755096316337585,
+            "encoder_difference": 0.32449036836624146,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13266,
+            "feature_id_2": 4570,
+            "decoder_similarity": 0.7622544169425964,
+            "encoder_similarity": 0.564642071723938,
+            "encoder_difference": 0.435357928276062,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 542,
+            "feature_id_2": 8265,
+            "decoder_similarity": 0.7136638164520264,
+            "encoder_similarity": 0.5746780633926392,
+            "encoder_difference": 0.42532193660736084,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 6905,
+            "feature_id_2": 9944,
+            "decoder_similarity": 0.7253812551498413,
+            "encoder_similarity": 0.617689847946167,
+            "encoder_difference": 0.382310152053833,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 3966,
+            "feature_id_2": 345,
+            "decoder_similarity": 0.7265289425849915,
+            "encoder_similarity": 0.5009729862213135,
+            "encoder_difference": 0.4990270137786865,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11808,
+            "feature_id_2": 11467,
+            "decoder_similarity": 0.7252980470657349,
+            "encoder_similarity": 0.576404333114624,
+            "encoder_difference": 0.423595666885376,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 13663,
+            "feature_id_2": 1323,
+            "decoder_similarity": 0.7376062870025635,
+            "encoder_similarity": 0.52097487449646,
+            "encoder_difference": 0.47902512550354004,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2591,
+            "feature_id_2": 14624,
+            "decoder_similarity": 0.7890233993530273,
+            "encoder_similarity": 0.5516142845153809,
+            "encoder_difference": 0.44838571548461914,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2171,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.9531095027923584,
+            "encoder_similarity": 0.7553189992904663,
+            "encoder_difference": 0.2446810007095337,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2171,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.7162256240844727,
+            "encoder_similarity": 0.570003867149353,
+            "encoder_difference": 0.429996132850647,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5453,
+            "feature_id_2": 15313,
+            "decoder_similarity": 0.7159313559532166,
+            "encoder_similarity": 0.5885598063468933,
+            "encoder_difference": 0.4114401936531067,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5854,
+            "feature_id_2": 5188,
+            "decoder_similarity": 0.7969684600830078,
+            "encoder_similarity": 0.8374393582344055,
+            "encoder_difference": 0.16256064176559448,
+            "quantile_1": 1,
+            "quantile_2": 1
+          }
+        ],
+        "redundant_encoder_similarity": {
+          "mean": 0.419573754214376,
+          "median": 0.4612079858779907,
+          "std": 0.20384034760699826
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.0340573713183403,
+          "median": 0.03396326303482056,
+          "std": 0.05584121495485306
+        }
+      },
+      "2": {
+        "n_redundant_pairs": 5,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [
+          {
+            "feature_id_1": 11207,
+            "feature_id_2": 4853,
+            "decoder_similarity": 0.8668148517608643,
+            "encoder_similarity": 0.6123554110527039,
+            "encoder_difference": 0.38764458894729614,
+            "quantile_1": 2,
+            "quantile_2": 2
+          },
+          {
+            "feature_id_1": 15528,
+            "feature_id_2": 15736,
+            "decoder_similarity": 0.7650948166847229,
+            "encoder_similarity": 0.6539870500564575,
+            "encoder_difference": 0.3460129499435425,
+            "quantile_1": 2,
+            "quantile_2": 2
+          },
+          {
+            "feature_id_1": 1704,
+            "feature_id_2": 2248,
+            "decoder_similarity": 0.740828812122345,
+            "encoder_similarity": 0.547926127910614,
+            "encoder_difference": 0.452073872089386,
+            "quantile_1": 2,
+            "quantile_2": 2
+          },
+          {
+            "feature_id_1": 9199,
+            "feature_id_2": 9112,
+            "decoder_similarity": 0.8010342121124268,
+            "encoder_similarity": 0.6339899301528931,
+            "encoder_difference": 0.36601006984710693,
+            "quantile_1": 2,
+            "quantile_2": 2
+          },
+          {
+            "feature_id_1": 360,
+            "feature_id_2": 7150,
+            "decoder_similarity": 0.8134880065917969,
+            "encoder_similarity": 0.7027386426925659,
+            "encoder_difference": 0.2972613573074341,
+            "quantile_1": 2,
+            "quantile_2": 2
+          }
+        ],
+        "redundant_encoder_similarity": {
+          "mean": 0.6301994323730469,
+          "median": 0.6339899301528931,
+          "std": 0.05085166936551755
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.020653601735830307,
+          "median": 0.022740118205547333,
+          "std": 0.040683645755052567
+        }
+      },
+      "3": {
+        "n_redundant_pairs": 2,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [
+          {
+            "feature_id_1": 5337,
+            "feature_id_2": 15917,
+            "decoder_similarity": 0.7698495388031006,
+            "encoder_similarity": 0.6644958853721619,
+            "encoder_difference": 0.33550411462783813,
+            "quantile_1": 3,
+            "quantile_2": 3
+          },
+          {
+            "feature_id_1": 6770,
+            "feature_id_2": 380,
+            "decoder_similarity": 0.7309625148773193,
+            "encoder_similarity": 0.593319296836853,
+            "encoder_difference": 0.406680703163147,
+            "quantile_1": 3,
+            "quantile_2": 3
+          }
+        ],
+        "redundant_encoder_similarity": {
+          "mean": 0.6289075911045074,
+          "median": 0.6289075911045074,
+          "std": 0.03558829426765442
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.0126906493678689,
+          "median": 0.014752425253391266,
+          "std": 0.04090751335024834
+        }
+      },
+      "4": {
+        "n_redundant_pairs": 4,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [
+          {
+            "feature_id_1": 14968,
+            "feature_id_2": 10649,
+            "decoder_similarity": 0.7227450013160706,
+            "encoder_similarity": 0.6110484600067139,
+            "encoder_difference": 0.38895153999328613,
+            "quantile_1": 4,
+            "quantile_2": 4
+          },
+          {
+            "feature_id_1": 15411,
+            "feature_id_2": 4155,
+            "decoder_similarity": 0.7522774338722229,
+            "encoder_similarity": 0.6101187467575073,
+            "encoder_difference": 0.3898812532424927,
+            "quantile_1": 4,
+            "quantile_2": 4
+          },
+          {
+            "feature_id_1": 3740,
+            "feature_id_2": 15449,
+            "decoder_similarity": 0.7036707401275635,
+            "encoder_similarity": 0.6139088273048401,
+            "encoder_difference": 0.3860911726951599,
+            "quantile_1": 4,
+            "quantile_2": 4
+          },
+          {
+            "feature_id_1": 3642,
+            "feature_id_2": 9528,
+            "decoder_similarity": 0.7354081869125366,
+            "encoder_similarity": 0.6421964168548584,
+            "encoder_difference": 0.3578035831451416,
+            "quantile_1": 4,
+            "quantile_2": 4
+          }
+        ],
+        "redundant_encoder_similarity": {
+          "mean": 0.6193181127309799,
+          "median": 0.612478643655777,
+          "std": 0.013282438207083537
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.008879488334059715,
+          "median": 0.013861874118447304,
+          "std": 0.04267052933573723
+        }
+      }
+    },
+    "0.9": {
+      "1": {
+        "n_redundant_pairs": 14,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 14393,
+            "decoder_similarity": 0.9013775587081909,
+            "encoder_similarity": 0.5681352615356445,
+            "encoder_difference": 0.43186473846435547,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 11195,
+            "decoder_similarity": 0.9276378154754639,
+            "encoder_similarity": 0.5776066780090332,
+            "encoder_difference": 0.4223933219909668,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 1911,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.904952347278595,
+            "encoder_similarity": 0.42245593667030334,
+            "encoder_difference": 0.5775440633296967,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 14393,
+            "feature_id_2": 11195,
+            "decoder_similarity": 0.9369233250617981,
+            "encoder_similarity": 0.6236474514007568,
+            "encoder_difference": 0.37635254859924316,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.9617848992347717,
+            "encoder_similarity": 0.6347981095314026,
+            "encoder_difference": 0.3652018904685974,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11195,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.9386416673660278,
+            "encoder_similarity": 0.4781678020954132,
+            "encoder_difference": 0.5218321979045868,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 8707,
+            "feature_id_2": 5009,
+            "decoder_similarity": 0.9274177551269531,
+            "encoder_similarity": 0.6287121772766113,
+            "encoder_difference": 0.37128782272338867,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 5009,
+            "feature_id_2": 11172,
+            "decoder_similarity": 0.9260568618774414,
+            "encoder_similarity": 0.3849171996116638,
+            "encoder_difference": 0.6150828003883362,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 11172,
+            "feature_id_2": 2616,
+            "decoder_similarity": 0.9004842042922974,
+            "encoder_similarity": 0.5031179189682007,
+            "encoder_difference": 0.4968820810317993,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2454,
+            "feature_id_2": 9293,
+            "decoder_similarity": 0.9104043245315552,
+            "encoder_similarity": 0.5897859334945679,
+            "encoder_difference": 0.41021406650543213,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 282,
+            "feature_id_2": 2331,
+            "decoder_similarity": 0.9252724647521973,
+            "encoder_similarity": 0.7420002222061157,
+            "encoder_difference": 0.2579997777938843,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 2171,
+            "decoder_similarity": 0.9251147508621216,
+            "encoder_similarity": 0.19377142190933228,
+            "encoder_difference": 0.8062285780906677,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 4031,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.9202973246574402,
+            "encoder_similarity": -0.03877873346209526,
+            "encoder_difference": 1.0387787334620953,
+            "quantile_1": 1,
+            "quantile_2": 1
+          },
+          {
+            "feature_id_1": 2171,
+            "feature_id_2": 5854,
+            "decoder_similarity": 0.9531095027923584,
+            "encoder_similarity": 0.7553189992904663,
+            "encoder_difference": 0.2446810007095337,
+            "quantile_1": 1,
+            "quantile_2": 1
+          }
+        ],
+        "redundant_encoder_similarity": {
+          "mean": 0.504546884181244,
+          "median": 0.5728709697723389,
+          "std": 0.2063314249252065
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.035224419087171555,
+          "median": 0.03630809485912323,
+          "std": 0.05437319353222847
+        }
+      },
+      "2": {
+        "n_redundant_pairs": 0,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [],
+        "redundant_encoder_similarity": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.021818971261382103,
+          "median": 0.0234057679772377,
+          "std": 0.04094740375876427
+        }
+      },
+      "3": {
+        "n_redundant_pairs": 0,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [],
+        "redundant_encoder_similarity": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.01193849928677082,
+          "median": 0.013224370777606964,
+          "std": 0.04046779125928879
+        }
+      },
+      "4": {
+        "n_redundant_pairs": 0,
+        "n_non_redundant_pairs_sampled": 1000,
+        "redundant_pairs": [],
+        "redundant_encoder_similarity": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "non_redundant_encoder_similarity": {
+          "mean": 0.006696878466755152,
+          "median": 0.007344109937548637,
+          "std": 0.04087711498141289
+        }
+      }
+    }
+  },
+  "dominance_stats": {
+    "total_sequences": 12288,
+    "total_positions": 12288,
+    "dominance_range": [
+      6.545123286609093e-06,
+      0.002161186894222548
+    ],
+    "mean_dominance": 6.103515625090775e-05
+  }
+}

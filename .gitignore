@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Local secrets / env files
+.env
+*.key
+
+# Local logs
+*.log
+
+# Local builds / outputs
+/tmp/
+out/
+summary/

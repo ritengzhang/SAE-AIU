@@ -1,0 +1,16 @@
+{
+  "config": {
+    "repo_id": "jbloom/GPT2-Small-OAI-v5-32k-mlp-out-SAEs",
+    "width": "32k",
+    "hook_type": "mlp_out",
+    "layer": 10,
+    "model_name": "gpt2-small",
+    "hook_name": "blocks.10.hook_mlp_out",
+    "d_in": 768,
+    "d_sae": 32768
+  },
+  "completeness_metrics": {
+    "mse": 28.437082290649414,
+    "n_samples": 7680
+  }
+}

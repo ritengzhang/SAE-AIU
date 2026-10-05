@@ -1,0 +1,33 @@
+{
+  "config": {
+    "architecture": "vanilla",
+    "width": "16k",
+    "layer": 19,
+    "trainer": "trainer_1",
+    "model_name": "google/gemma-2-2b",
+    "hook_name": "blocks.19.hook_resid_post",
+    "d_in": 2304,
+    "d_sae": 16384,
+    "sparsity_parameter": "l1_penalty",
+    "sparsity_parameter_value": 0.035
+  },
+  "trainer_config": {
+    "dict_class": "AutoEncoder",
+    "trainer_class": "StandardTrainer",
+    "activation_dim": 2304,
+    "dict_size": 16384,
+    "lr": 0.0003,
+    "l1_penalty": 0.035,
+    "warmup_steps": 1000,
+    "resample_steps": null,
+    "device": "cuda:2",
+    "layer": 19,
+    "lm_name": "google/gemma-2-2b",
+    "wandb_name": "StandardTrainer-google/gemma-2-2b-resid_post_layer_19",
+    "submodule_name": "resid_post_layer_19"
+  },
+  "completeness_metrics": {
+    "mse": 81.8553695678711,
+    "n_samples": 7680
+  }
+}

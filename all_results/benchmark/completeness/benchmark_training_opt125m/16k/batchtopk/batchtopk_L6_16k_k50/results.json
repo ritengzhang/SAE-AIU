@@ -1,0 +1,27 @@
+{
+  "config": {
+    "llm": "opt125m",
+    "combo_id": "batchtopk_L6_16k_k50",
+    "architecture": "batchtopk",
+    "layer": 6,
+    "width": "16k",
+    "d_sae": 16384,
+    "sparsity_param": "k",
+    "sparsity_value": 50,
+    "model_name": "opt-125m",
+    "hook_name": "blocks.6.hook_mlp_out",
+    "hook_head_index": null,
+    "d_in": 768
+  },
+  "completeness_metrics": {
+    "mse": 0.0009881715164878047,
+    "ce_loss_without_sae": null,
+    "ce_loss_with_sae": null,
+    "ce_loss_with_ablation": null,
+    "ce_loss_score": null,
+    "kl_div_with_sae": null,
+    "kl_div_with_ablation": null,
+    "kl_div_score": null,
+    "n_samples": 122880
+  }
+}
