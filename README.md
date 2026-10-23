@@ -2,6 +2,8 @@
 
 This is the code release accompanying the paper "Rethinking SAE Evaluation: An Atomic Interpretable Unit Framework Reveals Hidden Polysemanticity and Redundancy" by Riteng Zhang and Xiaoqian Wang (NeurIPS 2026, Evaluations & Datasets Track). It contains the evaluation framework (DAME, AIU criteria proxies, redundancy / completeness / sparsity / dead-unit metrics), training pipeline for newly trained SAEs, and analysis scripts that produce the per-SAE numbers reported in the paper.
 
+Paper: [arXiv:2610.30474](https://arxiv.org/abs/2610.30474)
+
 Checkpoints of our newly trained SAEs are hosted on HuggingFace: https://huggingface.co/ritengzhang/SAE-AIU
 
 ## Installation
@@ -162,6 +164,7 @@ licenses.
   title     = {Rethinking SAE Evaluation: An Atomic Interpretable Unit Framework Reveals Hidden Polysemanticity and Redundancy},
   author    = {Zhang, Riteng and Wang, Xiaoqian},
   booktitle = {Advances in Neural Information Processing Systems (Evaluations and Datasets Track)},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2610.30474}
 }
 ```
